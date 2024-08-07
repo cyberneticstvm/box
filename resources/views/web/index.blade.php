@@ -34,7 +34,7 @@ Hero Area
                             </div>
                             <div class="col-xl-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.png') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.svg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ Hero Area
                             </div>
                             <div class="col-xl-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.png') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.svg') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ Hero Area
                             </div>
                             <div class="col-xl-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.png') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.svg') }}" alt="">
                                 </div>
                             </div>
                         </div>
