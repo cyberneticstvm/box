@@ -2,7 +2,7 @@
     <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a class="icon-masking" href="index.html"><span data-mask-src="{{ asset('/web/assets/img/logo.svg') }}" class="mask-icon"></span><img src="{{ asset('/web/assets/img/logo.svg') }}" alt="Webteck"></a>
+            <a class="icon-masking" href="{{ route('index') }}"><span data-mask-src="{{ asset('/web/assets/img/logo-small.webp') }}" class="mask-icon"></span><img src="{{ asset('/web/assets/img/logo-small.webp') }}" height="25%" alt="Webteck"></a>
         </div>
 
         <div class="th-mobile-menu">

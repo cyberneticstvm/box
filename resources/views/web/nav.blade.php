@@ -31,7 +31,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a class="icon-masking" href="index.html"><span data-mask-src="{{ asset('/web/assets/img/logo.svg') }}" class="mask-icon"></span><img src="{{ asset('/web/assets/img/logo.svg') }}" alt="Webteck"></a>
+                            <a class="icon-masking" href="{{ route('index') }}"><span data-mask-src="{{ asset('/web/assets/img/logo-small.webp') }}" class="mask-icon"></span><img src="{{ asset('/web/assets/img/logo-small.webp') }}" alt="Move In Store"></a>
                         </div>
                     </div>
                     <div class="col-auto">
