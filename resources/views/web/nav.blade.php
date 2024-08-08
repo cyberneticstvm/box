@@ -54,7 +54,7 @@
                             </ul>
                         </nav>
                         <div class="header-button">
-                            <a href="#" class="th-btn shadow-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
+                            <a href="#" class="th-btn shadow-none sideMenuToggler d-inline-block d-lg-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
                             <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
                         </div>
                     </div>
