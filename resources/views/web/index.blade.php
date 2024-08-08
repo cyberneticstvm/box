@@ -17,17 +17,16 @@ Hero Area
                                         <div class="icon-masking me-2">
                                             <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}"></span>
                                             <img src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}" alt="shape">
-                                        </div>Welcome to IT Consulting
+                                        </div>Welcome to the Ultimate Smart Storage Solution
                                     </span>
                                     <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        The Future of IT is Here Let's Build It Together </h1>
+                                        The Future of Storage is Here Let's Build It Together </h1>
                                     <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
-                                        Webteck is a leading IT consulting firm dedicated to empowering businesses with innovative technology solutions. We combine a passion for technology with years of industry experience. </p>
+                                        Move In Store offer a highly efficient and affordable storage solution catering for all your possible storage needs. Simple, Fast and Affordable storage services. </p>
                                     <div class="btn-group justify-content-center justify-content-xl-start " data-ani="slideinup" data-ani-delay="0.9s">
-                                        <a href="service.html" class="th-btn style-radius style3 text-capitalize">View
-                                            All Services</a>
-                                        <a href="contact.html" class="th-btn style-radius style2 text-capitalize">Make
-                                            An Appoinment</a>
+                                        <a href="#" class="th-btn style-radius style3 text-capitalize">View
+                                            All Solutions</a>
+                                        <a href="#" class="th-btn style-radius style2 text-capitalize">Get A Quote</a>
                                     </div>
 
                                 </div>
@@ -59,10 +58,9 @@ Hero Area
                                     <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
                                         IT consulting involves providing expert advice and guidance to businesses or organizations on how to best utilize information technology (IT) to meet their objectives and solve specific. </p>
                                     <div class="btn-group justify-content-center justify-content-xl-start " data-ani="slideinup" data-ani-delay="0.9s">
-                                        <a href="service.html" class="th-btn style-radius style3 text-capitalize">View
-                                            All Services</a>
-                                        <a href="contact.html" class="th-btn style-radius style2 text-capitalize">Make
-                                            An Appoinment</a>
+                                        <a href="#" class="th-btn style-radius style3 text-capitalize">View
+                                            All Solutions</a>
+                                        <a href="#" class="th-btn style-radius style2 text-capitalize">Get A Quote</a>
                                     </div>
 
                                 </div>
@@ -94,10 +92,9 @@ Hero Area
                                     <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
                                         IT consultants typically have deep to meet their objectives knowledge and experience in various IT domains, including hardware, software, networking, security, and data management. </p>
                                     <div class="btn-group justify-content-center justify-content-xl-start " data-ani="slideinup" data-ani-delay="0.9s">
-                                        <a href="service.html" class="th-btn style-radius style3 text-capitalize">View
-                                            All Services</a>
-                                        <a href="contact.html" class="th-btn style-radius style2 text-capitalize">Make
-                                            An Appoinment</a>
+                                        <a href="#" class="th-btn style-radius style3 text-capitalize">View
+                                            All Solutions</a>
+                                        <a href="#" class="th-btn style-radius style2 text-capitalize">Get A Quote</a>
                                     </div>
 
                                 </div>
