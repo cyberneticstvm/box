@@ -5985,7 +5985,7 @@ a.text-theme:hover,
   display: block;
   position: relative;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
   color: var(--title-color);
   font-family: var(--title-font);
   text-transform: uppercase;
@@ -14081,7 +14081,8 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
 }
 
 .hero-style19 {
-  padding: 319px 0 294px 0;
+  /*padding: 319px 0 294px 0;*/
+  padding: 50px 0 75px 0;
   /* Medium Large devices */
   /* Large devices */
   /* Medium devices */

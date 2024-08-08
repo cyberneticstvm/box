@@ -32,9 +32,10 @@ Hero Area
 
                                 </div>
                             </div>
-                            <div class="col-xl-5">
+                            <div class="col-xl-5 mt-5">
+                                <!-- 596*659 -->
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.svg') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -66,9 +67,10 @@ Hero Area
 
                                 </div>
                             </div>
-                            <div class="col-xl-5">
+                            <div class="col-xl-5 mt-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.svg') }}" alt="">
+                                    <!--594*688-->
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -100,9 +102,10 @@ Hero Area
 
                                 </div>
                             </div>
-                            <div class="col-xl-5">
+                            <div class="col-xl-5 mt-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.svg') }}" alt="">
+                                    <!--634*618-->
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>

@@ -981,10 +981,10 @@
     }
     });
 
-    $(document).on("mousemove", function(e) {
+    /*$(document).on("mousemove", function(e) {
         mouseX = e.clientX;
         mouseY = e.clientY;
-    });
+    });*/
     //circle
     $(".btn").on("mouseenter", function() {
         cursor.addClass("active");

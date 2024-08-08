@@ -43,9 +43,10 @@
                                 <li class="menu-item-has-children">
                                     <a href="#">Storage</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Space</a></li>
-                                        <li><a href="#">Boxes</a></li>
-                                        <li><a href="#">Smart Storage Solution</a></li>
+                                        <li><a href="#">Residential Storage</a></li>
+                                        <li><a href="#">Storage by the Box</a></li>
+                                        <li><a href="#">Suitcase Storage</a></li>
+                                        <li><a href="#">Office Storage</a></li>
                                     </ul>
                                 </li>
                                 <li>
