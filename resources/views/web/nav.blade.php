@@ -53,13 +53,10 @@
                                 </li>
                             </ul>
                         </nav>
-                        <!--<div class="header-button">
-                            <button type="button" class="icon-btn sideMenuToggler d-inline-block d-lg-none">
-                                <i class="far fa-shopping-cart"></i>
-                                <span class="badge">5</span>
-                            </button>
+                        <div class="header-button">
+                            <a href="#" class="th-btn shadow-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
                             <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
-                        </div>-->
+                        </div>
                     </div>
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-button">
