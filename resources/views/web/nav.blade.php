@@ -43,9 +43,9 @@
                                 <li class="menu-item-has-children">
                                     <a href="#">Storage</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Residential Storage</a></li>
-                                        <li><a href="#">Storage by the Box</a></li>
-                                        <li><a href="#">Suitcase Storage</a></li>
+                                        <li><a href="#">Storage by Box</a></li>
+                                        <li><a href="#">Suitcase and Luggage storage</a></li>
+                                        <li><a href="#">Furniture Storage</a></li>
                                         <li><a href="#">Office Storage</a></li>
                                     </ul>
                                 </li>
