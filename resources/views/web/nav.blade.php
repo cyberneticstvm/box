@@ -7,7 +7,7 @@
                         <ul>
                             <li><i class="fas fa-map-location"></i>54 NJ-12, Flemington, United States</li>
                             <li><i class="fas fa-phone"></i><a href="tel:+1539873657">+153-987-3657</a></li>
-                            <li><i class="fas fa-envelope"></i><a href="mailto:info@webteck.com">info@webteck.com</a></li>
+                            <li><i class="fas fa-envelope"></i><a href="mailto:info@moveinstore.com">info@moveinstore.com</a></li>
                         </ul>
                     </div>
                 </div>

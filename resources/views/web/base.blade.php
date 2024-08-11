@@ -145,7 +145,7 @@
                                 <p class="about-text">Professionally redefine transparent ROI through low-risk high-yield imperatives. Progressively create empowered. cost effective users via team driven.</p>
                                 <div class="th-social">
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.twitter.com/"><i class="fab fa-x-twitter"></i></a>
                                     <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                                     <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
                                     <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
@@ -158,25 +158,25 @@
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="team.html">Meet Our Team</a></li>
-                                    <li><a href="project.html">Our Projects</a></li>
-                                    <li><a href="faq.html">Help & FAQs</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Why Choose Us</a></li>
+                                    <li><a href="#">How It Works</a></li>
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="#">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">IT SERVICES</h3>
+                            <h3 class="widget_title">OUR SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="service-details.html">Web Development</a></li>
-                                    <li><a href="service-details.html">Business Development</a></li>
-                                    <li><a href="service-details.html">Product Management</a></li>
-                                    <li><a href="service-details.html">UI/UX Design</a></li>
-                                    <li><a href="service-details.html">Cloud services</a></li>
+                                    <li><a href="#">Storage by Box</a></li>
+                                    <li><a href="#">Suitcase and Luggage storage</a></li>
+                                    <li><a href="#">Furniture Storage</a></li>
+                                    <li><a href="#">Office Storage</a></li>
+                                    <li><a href="#">Movers and Packaers</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-6">
-                        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="https://themeforest.net/user/themeholy">Themeholy</a>. All Rights Reserved.</p>
+                        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> {{ date('Y') }} <a href="https://moveinstore.com">Move In Store</a>. All Rights Reserved.</p>
                     </div>
                     <div class="col-lg-6 text-lg-end text-center">
                         <div class="footer-links">
