@@ -20,9 +20,9 @@ Hero Area
                                         </div>Welcome to the Ultimate Smart Storage Solution
                                     </span>
                                     <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        The Future of Storage is Here Let's Build It Together </h1>
+                                        Your one stop storage and moving partner </h1>
                                     <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
-                                        Move In Store offer a highly efficient and affordable storage solution catering for all your possible storage needs. Simple, Fast and Affordable storage services. </p>
+                                        From a small box to whole house or office items at movenstore we pack, pick, store and deliver.</p>
                                     <div class="btn-group justify-content-center justify-content-xl-start " data-ani="slideinup" data-ani-delay="0.9s">
                                         <a href="#" class="th-btn style-radius style3 text-capitalize">View
                                             All Solutions</a>
@@ -51,12 +51,12 @@ Hero Area
                                         <div class="icon-masking me-2">
                                             <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}"></span>
                                             <img src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}" alt="shape">
-                                        </div>Welcome to IT Consulting
+                                        </div>Welcome to the Ultimate Smart Storage Solution
                                     </span>
                                     <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        Businesses strategic IT consulting solutions </h1>
+                                        Your one stop storage and moving partner </h1>
                                     <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
-                                        IT consulting involves providing expert advice and guidance to businesses or organizations on how to best utilize information technology (IT) to meet their objectives and solve specific. </p>
+                                        From a small box to whole house or office items at movenstore we pack, pick, store and deliver.</p>
                                     <div class="btn-group justify-content-center justify-content-xl-start " data-ani="slideinup" data-ani-delay="0.9s">
                                         <a href="#" class="th-btn style-radius style3 text-capitalize">View
                                             All Solutions</a>
@@ -85,12 +85,12 @@ Hero Area
                                         <div class="icon-masking me-2">
                                             <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}"></span>
                                             <img src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}" alt="shape">
-                                        </div>Welcome to IT Consulting
+                                        </div>Welcome to the Ultimate Smart Storage Solution
                                     </span>
                                     <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        Digital potential through expert IT consulting. </h1>
+                                        Your one stop storage and moving partner </h1>
                                     <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
-                                        IT consultants typically have deep to meet their objectives knowledge and experience in various IT domains, including hardware, software, networking, security, and data management. </p>
+                                        From a small box to whole house or office items at movenstore we pack, pick, store and deliver.</p>
                                     <div class="btn-group justify-content-center justify-content-xl-start " data-ani="slideinup" data-ani-delay="0.9s">
                                         <a href="#" class="th-btn style-radius style3 text-capitalize">View
                                             All Solutions</a>
@@ -119,7 +119,105 @@ Hero Area
 
 
 </div>
-<!--======== / Hero Section ========--><!--==============================
+<!--======== / Hero Section ========-->
+<!--==============================
+Service Area  
+==============================-->
+<section class="bg-top-center z-index-common space-top mt-5" id="service-sec" data-bg-src="{{ asset('/web/assets/img/bg/service_bg_2.webp') }}">
+    <div class="container">
+        <div class="row justify-content-lg-between justify-content-center align-items-center">
+            <div class="col-lg-6 col-sm-9 pe-xl-5">
+                <div class="title-area text-center text-lg-start">
+                    <div class="shadow-title color2">SOLUTIONS</div>
+                    <span class="sub-title">
+                        <div class="icon-masking me-2">
+                            <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}"></span>
+                            <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
+                        </div>WHAT WE DO
+                    </span>
+                    <h2 class="sec-title text-white">Your one stop storage and moving <span class="text-theme">Partner</span></h2>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="sec-btn">
+                    <a href="#" class="th-btn style3">VIEW ALL SOLUTIONS<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-area">
+            <div class="swiper th-slider has-shadow" id="serviceSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="service-grid">
+                            <div class="service-grid_icon">
+                                <img src="{{ asset('/web/assets/img/icon/house.svg') }}" alt="Icon">
+                            </div>
+                            <div class="service-grid_content">
+                                <h3 class="box-title"><a href="#">HOUSEHOLD STORAGE </a></h3>
+                                <p class="service-grid_text text-justify">With our state of the art storage facilties Movenstore provides a variety of storage options for your household furniture and all other items .</p>
+                                <br /><br />
+                                <a href="#" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                <div class="bg-shape">
+                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-grid">
+                            <div class="service-grid_icon">
+                                <img src="{{ asset('/web/assets/img/icon/box.svg') }}" alt="Icon">
+                            </div>
+                            <div class="service-grid_content">
+                                <h3 class="box-title"><a href="#">BOX STORAGE </a></h3>
+                                <p class="service-grid_text text-justify">At Movenstore you don't need pay huge amount if you have few items ,simply send us the list or pictures of the items and we will charge only for the space you use.</p>
+                                <br />
+                                <a href="#" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                <div class="bg-shape">
+                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-grid">
+                            <div class="service-grid_icon">
+                                <img src="{{ asset('/web/assets/img/icon/office.svg') }}" alt="Icon">
+                            </div>
+                            <div class="service-grid_content">
+                                <h3 class="box-title"><a href="#">OFFICE STORAGE </a></h3>
+                                <p class="service-grid_text text-justify">Movenstore provides bespoke storage packages suitable for all your commercial storage needs. we apply special discounts for small businesses and young entrepreneurs.</p>
+                                <br />
+                                <a href="#" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                <div class="bg-shape">
+                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-grid">
+                            <div class="service-grid_icon">
+                                <img src="{{ asset('/web/assets/img/icon/truck.svg') }}" alt="Icon">
+                            </div>
+                            <div class="service-grid_content">
+                                <h3 class="box-title"><a href="#">MOVERS AND PACKERS </a></h3>
+                                <p class="service-grid_text text-justify">professional packers, quality packing materials, and expert moving team is paramount in storage or moving process. Our team is equipped with all of those qualities with 15 years of experience.</p>
+                                <a href="#" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                <div class="bg-shape">
+                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--==============================
 About Area  
 ==============================-->
 <div class="overflow-hidden space" id="about-sec">
@@ -182,114 +280,6 @@ About Area
         </div>
     </div>
 </div><!--==============================
-Service Area  
-==============================-->
-<section class="bg-top-center z-index-common space-top" id="service-sec" data-bg-src="{{ asset('/web/assets/img/bg/service_bg_2.jpg') }}">
-    <div class="container">
-        <div class="row justify-content-lg-between justify-content-center align-items-center">
-            <div class="col-lg-6 col-sm-9 pe-xl-5">
-                <div class="title-area text-center text-lg-start">
-                    <div class="shadow-title color2">SERVICES</div>
-                    <span class="sub-title">
-                        <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}"></span>
-                            <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
-                        </div>WHAT WE DO
-                    </span>
-                    <h2 class="sec-title text-white">We Provide Exclusive Service For <span class="text-theme">Your Business</span></h2>
-                </div>
-            </div>
-            <div class="col-auto">
-                <div class="sec-btn">
-                    <a href="service.html" class="th-btn style3">VIEW ALL SERVICES<i class="fa-regular fa-arrow-right ms-2"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider-area">
-            <div class="swiper th-slider has-shadow" id="serviceSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="service-grid">
-                            <div class="service-grid_icon">
-                                <img src="{{ asset('/web/assets/img/icon/service_card_1.svg') }}" alt="Icon">
-                            </div>
-                            <div class="service-grid_content">
-                                <h3 class="box-title"><a href="service-details.html">Web Development</a></h3>
-                                <p class="service-grid_text">Continually engage customized infomediarie and quality growth strategies. Appropriately.</p>
-                                <a href="service-details.html" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
-                                <div class="bg-shape">
-                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="service-grid">
-                            <div class="service-grid_icon">
-                                <img src="{{ asset('/web/assets/img/icon/service_card_2.svg') }}" alt="Icon">
-                            </div>
-                            <div class="service-grid_content">
-                                <h3 class="box-title"><a href="service-details.html">UI/UX Design</a></h3>
-                                <p class="service-grid_text">Continually engage customized infomediarie and quality growth strategies. Appropriately.</p>
-                                <a href="service-details.html" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
-                                <div class="bg-shape">
-                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="service-grid">
-                            <div class="service-grid_icon">
-                                <img src="{{ asset('/web/assets/img/icon/service_card_3.svg') }}" alt="Icon">
-                            </div>
-                            <div class="service-grid_content">
-                                <h3 class="box-title"><a href="service-details.html">Digital Marketing</a></h3>
-                                <p class="service-grid_text">Continually engage customized infomediarie and quality growth strategies. Appropriately.</p>
-                                <a href="service-details.html" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
-                                <div class="bg-shape">
-                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="service-grid">
-                            <div class="service-grid_icon">
-                                <img src="{{ asset('/web/assets/img/icon/service_card_4.svg') }}" alt="Icon">
-                            </div>
-                            <div class="service-grid_content">
-                                <h3 class="box-title"><a href="service-details.html">Business Analysis</a></h3>
-                                <p class="service-grid_text">Continually engage customized infomediarie and quality growth strategies. Appropriately.</p>
-                                <a href="service-details.html" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
-                                <div class="bg-shape">
-                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="service-grid">
-                            <div class="service-grid_icon">
-                                <img src="{{ asset('/web/assets/img/icon/service_card_5.svg') }}" alt="Icon">
-                            </div>
-                            <div class="service-grid_content">
-                                <h3 class="box-title"><a href="service-details.html">Software Services</a></h3>
-                                <p class="service-grid_text">Continually engage customized infomediarie and quality growth strategies. Appropriately.</p>
-                                <a href="service-details.html" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
-                                <div class="bg-shape">
-                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section><!--==============================
 Feature Area  
 ==============================-->
 <div class="why-sec-v2" data-bg-src="{{ asset('/web/assets/img/bg/why_bg_2.jpg') }}">
@@ -345,188 +335,6 @@ Feature Area
         </div>
     </div>
 </div><!--==============================
-Project Area  
-==============================-->
-<section class="space" id="project-sec">
-    <div class="container">
-        <div class="title-area text-center">
-            <div class="shadow-title">PROJECTS</div>
-            <span class="sub-title">
-                <div class="icon-masking me-2">
-                    <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}"></span>
-                    <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
-                </div>
-                LATEST PROJECTS
-            </span>
-            <h2 class="sec-title">Our Recent Latest <span class="text-theme">Projects</span></h2>
-        </div>
-
-        <div class="slider-area">
-            <div class="swiper th-slider has-shadow" id="projectSlider2" data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="project-grid">
-                            <div class="project-grid_img">
-                                <img src="{{ asset('/web/assets/img/project/project_2_1.jpg') }}" alt="project image">
-                                <a href="{{ asset('/web/assets/img/project/project_2_1.jpg') }}" class="play-btn style3 popup-image"><i class="far fa-plus"></i></a>
-                            </div>
-                            <div class="project-grid_content">
-                                <h3 class="box-title"><a href="project-details.html">IT Consultency</a></h3>
-                                <p class="project-grid_text">Distinctively enable premium expertise for multifunctional action items. Energistically benchmark worldwide communities.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="project-grid">
-                            <div class="project-grid_img">
-                                <img src="{{ asset('/web/assets/img/project/project_2_2.jpg') }}" alt="project image">
-                                <a href="{{ asset('/web/assets/img/project/project_2_2.jpg') }}" class="play-btn style3 popup-image"><i class="far fa-plus"></i></a>
-                            </div>
-                            <div class="project-grid_content">
-                                <h3 class="box-title"><a href="project-details.html">Web Development</a></h3>
-                                <p class="project-grid_text">Distinctively enable premium expertise for multifunctional action items. Energistically benchmark worldwide communities.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="project-grid">
-                            <div class="project-grid_img">
-                                <img src="{{ asset('/web/assets/img/project/project_2_3.jpg') }}" alt="project image">
-                                <a href="{{ asset('/web/assets/img/project/project_2_3.jpg') }}" class="play-btn style3 popup-image"><i class="far fa-plus"></i></a>
-                            </div>
-                            <div class="project-grid_content">
-                                <h3 class="box-title"><a href="project-details.html">Website Design</a></h3>
-                                <p class="project-grid_text">Distinctively enable premium expertise for multifunctional action items. Energistically benchmark worldwide communities.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="project-grid">
-                            <div class="project-grid_img">
-                                <img src="{{ asset('/web/assets/img/project/project_2_4.jpg') }}" alt="project image">
-                                <a href="{{ asset('/web/assets/img/project/project_2_4.jpg') }}" class="play-btn style3 popup-image"><i class="far fa-plus"></i></a>
-                            </div>
-                            <div class="project-grid_content">
-                                <h3 class="box-title"><a href="project-details.html">SEO Optimization</a></h3>
-                                <p class="project-grid_text">Distinctively enable premium expertise for multifunctional action items. Energistically benchmark worldwide communities.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="project-grid">
-                            <div class="project-grid_img">
-                                <img src="{{ asset('/web/assets/img/project/project_2_1.jpg') }}" alt="project image">
-                                <a href="{{ asset('/web/assets/img/project/project_2_1.jpg') }}" class="play-btn style3 popup-image"><i class="far fa-plus"></i></a>
-                            </div>
-                            <div class="project-grid_content">
-                                <h3 class="box-title"><a href="project-details.html">IT Consultency</a></h3>
-                                <p class="project-grid_text">Distinctively enable premium expertise for multifunctional action items. Energistically benchmark worldwide communities.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="project-grid">
-                            <div class="project-grid_img">
-                                <img src="{{ asset('/web/assets/img/project/project_2_2.jpg') }}" alt="project image">
-                                <a href="{{ asset('/web/assets/img/project/project_2_2.jpg') }}" class="play-btn style3 popup-image"><i class="far fa-plus"></i></a>
-                            </div>
-                            <div class="project-grid_content">
-                                <h3 class="box-title"><a href="project-details.html">Web Development</a></h3>
-                                <p class="project-grid_text">Distinctively enable premium expertise for multifunctional action items. Energistically benchmark worldwide communities.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="project-grid">
-                            <div class="project-grid_img">
-                                <img src="{{ asset('/web/assets/img/project/project_2_3.jpg') }}" alt="project image">
-                                <a href="{{ asset('/web/assets/img/project/project_2_3.jpg') }}" class="play-btn style3 popup-image"><i class="far fa-plus"></i></a>
-                            </div>
-                            <div class="project-grid_content">
-                                <h3 class="box-title"><a href="project-details.html">Website Design</a></h3>
-                                <p class="project-grid_text">Distinctively enable premium expertise for multifunctional action items. Energistically benchmark worldwide communities.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="project-grid">
-                            <div class="project-grid_img">
-                                <img src="{{ asset('/web/assets/img/project/project_2_4.jpg') }}" alt="project image">
-                                <a href="{{ asset('/web/assets/img/project/project_2_4.jpg') }}" class="play-btn style3 popup-image"><i class="far fa-plus"></i></a>
-                            </div>
-                            <div class="project-grid_content">
-                                <h3 class="box-title"><a href="project-details.html">SEO Optimization</a></h3>
-                                <p class="project-grid_text">Distinctively enable premium expertise for multifunctional action items. Energistically benchmark worldwide communities.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <button data-slider-prev="#projectSlider2" class="slider-arrow style3 slider-prev"><i class="far fa-arrow-left"></i></button>
-            <button data-slider-next="#projectSlider2" class="slider-arrow style3 slider-next"><i class="far fa-arrow-right"></i></button>
-        </div>
-    </div>
-</section><!--==============================
-Counter Area  
-==============================-->
-<div class="bg-theme space-extra" data-bg-src="{{ asset('/web/assets/img/bg/counter_bg_1.png') }}">
-    <div class="container py-2">
-        <div class="row gy-40 justify-content-between">
-            <div class="col-6 col-lg-auto">
-                <div class="counter-card">
-                    <div class="counter-card_icon">
-                        <img src="{{ asset('/web/assets/img/icon/counter_1_1.svg') }}" alt="Icon">
-                    </div>
-                    <div class="media-body">
-                        <h2 class="counter-card_number"><span class="counter-number">986</span>+</h2>
-                        <p class="counter-card_text">Finished Project</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-lg-auto">
-                <div class="counter-card">
-                    <div class="counter-card_icon">
-                        <img src="{{ asset('/web/assets/img/icon/counter_1_2.svg') }}" alt="Icon">
-                    </div>
-                    <div class="media-body">
-                        <h2 class="counter-card_number"><span class="counter-number">896</span>+</h2>
-                        <p class="counter-card_text">Happy Clients</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-lg-auto">
-                <div class="counter-card">
-                    <div class="counter-card_icon">
-                        <img src="{{ asset('/web/assets/img/icon/counter_1_3.svg') }}" alt="Icon">
-                    </div>
-                    <div class="media-body">
-                        <h2 class="counter-card_number"><span class="counter-number">396</span>+</h2>
-                        <p class="counter-card_text">Skilled Experts</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-lg-auto">
-                <div class="counter-card">
-                    <div class="counter-card_icon">
-                        <img src="{{ asset('/web/assets/img/icon/counter_1_4.svg') }}" alt="Icon">
-                    </div>
-                    <div class="media-body">
-                        <h2 class="counter-card_number"><span class="counter-number">496</span>+</h2>
-                        <p class="counter-card_text">Honorable Awards</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><!--==============================
 Process Area  
 ==============================-->
 <section class="bg-smoke" id="process-sec" data-bg-src="{{ asset('/web/assets/img/bg/process_bg_1.png') }}">
@@ -540,7 +348,7 @@ Process Area
                 </div>
                 WORK PROCESS
             </span>
-            <h2 class="sec-title">How to work <span class="text-theme">it!</span></h2>
+            <h2 class="sec-title">How it <span class="text-theme">works!</span></h2>
         </div>
         <div class="process-card-area">
             <div class="process-line">
@@ -551,40 +359,43 @@ Process Area
                     <div class="process-card">
                         <div class="process-card_number">01</div>
                         <div class="process-card_icon">
-                            <img src="{{ asset('/web/assets/img/icon/process_card_1.svg') }}" alt="icon">
+                            <img src="{{ asset('/web/assets/img/icon/call.svg') }}" alt="icon">
                         </div>
-                        <h2 class="box-title">Select a project</h2>
-                        <p class="process-card_text">Continua scale empowered metrics with cost effective innovation.</p>
+                        <h2 class="box-title">YOU BOOK</h2>
+                        <p class="process-card_text text-justify">Simply visit our website and book online or text us on WhatsApp and our staff will assist you.</p>
+                        <br /><br />
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-3 process-card-wrap">
                     <div class="process-card">
                         <div class="process-card_number">02</div>
                         <div class="process-card_icon">
-                            <img src="{{ asset('/web/assets/img/icon/process_card_2.svg') }}" alt="icon">
+                            <img src="{{ asset('/web/assets/img/icon/pack.svg') }}" alt="icon">
                         </div>
-                        <h2 class="box-title">Project analysis</h2>
-                        <p class="process-card_text">Continua scale empowered metrics with cost effective innovation.</p>
+                        <h2 class="box-title">WE PACK & PICK</h2>
+                        <p class="process-card_text text-justify">Our professional movers packers team will be at your door step and dismantle, pack,load and transport you furniture and items to our secure storage facility.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-3 process-card-wrap">
                     <div class="process-card">
                         <div class="process-card_number">03</div>
                         <div class="process-card_icon">
-                            <img src="{{ asset('/web/assets/img/icon/process_card_3.svg') }}" alt="icon">
+                            <img src="{{ asset('/web/assets/img/icon/store.svg') }}" alt="icon">
                         </div>
-                        <h2 class="box-title">Plan Execute</h2>
-                        <p class="process-card_text">Continua scale empowered metrics with cost effective innovation.</p>
+                        <h2 class="box-title">WE STORE</h2>
+                        <p class="process-card_text text-justify">Movenstore expert storage team will tag ,Mark and store all your belongings in our safe storage facility under servillance.</p>
+                        <br />
                     </div>
                 </div>
                 <div class="col-sm-6 col-xl-3 process-card-wrap">
                     <div class="process-card">
                         <div class="process-card_number">04</div>
                         <div class="process-card_icon">
-                            <img src="{{ asset('/web/assets/img/icon/process_card_4.svg') }}" alt="icon">
+                            <img src="{{ asset('/web/assets/img/icon/deliver.svg') }}" alt="icon">
                         </div>
-                        <h2 class="box-title">Deliver result</h2>
-                        <p class="process-card_text">Continua scale empowered metrics with cost effective innovation.</p>
+                        <h2 class="box-title">WE DELIVER</h2>
+                        <p class="process-card_text text-justify">When ever you need your items back simply text and send us the address,date and time and our team will deliver all you items .</p>
+                        <br />
                     </div>
                 </div>
             </div>

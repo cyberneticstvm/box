@@ -5985,7 +5985,7 @@ a.text-theme:hover,
   display: block;
   position: relative;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 17px;
   color: var(--title-color);
   font-family: var(--title-font);
   text-transform: uppercase;
@@ -39410,3 +39410,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.text-justify{
+  text-align: justify !important;
+}
