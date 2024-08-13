@@ -287,7 +287,7 @@ Feature Area
         <div class="row align-items-center flex-row-reverse">
             <div class="col-xl-6 mb-30 mb-xl-0">
                 <div class="img-box5">
-                    <img class="tilt-active" src="{{ asset('/web/assets/img/normal/why_2_1.png') }}" alt="Why">
+                    <img class="tilt-active" src="{{ asset('/web/assets/img/normal/why_2_1.webp') }}" alt="Why">
                     <div class="year-counter">
                         <h3 class="year-counter_number"><span class="counter-number">10</span>k+</h3>
                         <p class="year-counter_text">Clients Active</p>
@@ -303,34 +303,34 @@ Feature Area
                             <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
                         </div>WHY CHOOSE US
                     </span>
-                    <h2 class="sec-title">More Than 24+ Years Experience We Provide <span class="text-theme">IT Services</span></h2>
+                    <h2 class="sec-title">Over 15 Years of Expertise in <span class="text-theme">Industry</span></h2>
                 </div>
-                <p class="mt-n2 mb-30">Collaboratively envisioneer user friendly supply chains and cross unit imperative. Authoritativel fabricate competitive resource and holistic. Holisticly restore real time resources whereas standardized networks.</p>
+                <p class="mt-n2 mb-30 text-justify">At Move N Store, we stand out in the storage industry thanks to our smart and advanced storage facilities, user-friendly online platform, affordable pricing, and innovative storage-by-the-box concept. Our commitment to excellence ensures a seamless experience for all your storage needs.</p>
                 <div class="feature-circle-wrap">
                     <div class="feature-circle">
                         <div class="progressbar" data-path-color="#684DF4">
-                            <div class="circle" data-percent="90">
+                            <div class="circle" data-percent="100">
                                 <div class="circle-num"></div>
                             </div>
                         </div>
                         <div class="media-body">
-                            <h3 class="feature-circle_title">Business Grow</h3>
-                            <p class="feature-circle_text">Efficiently transition top-line ideas before market.</p>
+                            <h3 class="feature-circle_title">Eco-Friendly Storage</h3>
+                            <p class="feature-circle_text text-justify">We prioritize sustainability by utilizing eco-friendly materials and practices in our storage solutions. Our commitment to minimizing environmental impact means you can store your items guilt-free, knowing you're contributing to a greener planet.</p>
                         </div>
                     </div>
                     <div class="feature-circle">
                         <div class="progressbar" data-path-color="#684DF4">
-                            <div class="circle" data-percent="95">
+                            <div class="circle" data-percent="100">
                                 <div class="circle-num"></div>
                             </div>
                         </div>
                         <div class="media-body">
-                            <h3 class="feature-circle_title">Quality Products</h3>
-                            <p class="feature-circle_text">Efficiently transition top-line ideas before market.</p>
+                            <h3 class="feature-circle_title">Round-the-Clock Security</h3>
+                            <p class="feature-circle_text text-justify">Your peace of mind is our priority. With comprehensive security measures in place, we ensure that your belongings are safe and secure at all times. Our staff is trained to handle any security concerns promptly and effectively.</p>
                         </div>
                     </div>
                 </div>
-                <a href="about.html" class="th-btn">LEARN MORE<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                <a href="{{ route('wcu') }}" class="th-btn">LEARN MORE<i class="fa-regular fa-arrow-right ms-2"></i></a>
             </div>
         </div>
     </div>

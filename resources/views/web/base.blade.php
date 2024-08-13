@@ -109,32 +109,6 @@
     @include("web.nav")
     @yield("webcontent")
     <footer class="footer-wrapper footer-layout3" data-bg-src="{{ asset('/web/assets/img/bg/footer_bg_2.jpg') }}">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-3">
-                        <div class="footer-logo">
-                            <a class="icon-masking" href="index.html"><span data-mask-src="{{ asset('/web/assets/img/logo-white.svg') }}" class="mask-icon"></span><img src="{{ asset('/web/assets/img/logo-white.svg') }}" alt="Webteck"></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-9">
-                        <div class="newsletter-wrap">
-                            <div class="newsletter-content">
-                                <h3 class="newsletter-title">News Subscription</h3>
-                                <p class="newsletter-text">Get Latest Deals from Waker’s Inbox & Subscribe Now</p>
-                            </div>
-                            <form class="newsletter-form">
-                                <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="Email Address" required="">
-                                    <i class="fal fa-envelope"></i>
-                                </div>
-                                <button type="submit" class="th-btn style3">Subscribe</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="widget-area">
             <div class="container">
                 <div class="row justify-content-between">
@@ -217,14 +191,14 @@
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-6">
-                        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> {{ date('Y') }} <a href="https://moveinstore.com">Move In Store</a>. All Rights Reserved.</p>
+                        <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> {{ date('Y') }} <a href="https://moveinstore.com">Move N Store</a>. All Rights Reserved.</p>
                     </div>
                     <div class="col-lg-6 text-lg-end text-center">
                         <div class="footer-links">
                             <ul>
-                                <li><a href="about.html">Terms & Condition</a></li>
-                                <li><a href="about.html">Careers</a></li>
-                                <li><a href="about.html">Privacy Policy</a></li>
+                                <li><a href="{{ route('privacy.policy') }}">Terms & Condition</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="{{ route('privacy.policy') }}">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
