@@ -11,7 +11,7 @@ Hero Area
                 <div class="hero-inner">
                     <div class="container th-container4">
                         <div class="row align-items-end">
-                            <div class="col-xl-7">
+                            <div class="col-xl-7 space-extra-bottom">
                                 <div class="hero-style19">
                                     <span class="sub-title text-capitalize" data-ani="slideinup" data-ani-delay="0.2s">
                                         <div class="icon-masking me-2">
@@ -34,7 +34,7 @@ Hero Area
                             <div class="col-xl-5 mt-5">
                                 <!-- 596*659 -->
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.webp') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -45,41 +45,7 @@ Hero Area
                 <div class="hero-inner">
                     <div class="container th-container4">
                         <div class="row align-items-end">
-                            <div class="col-xl-7">
-                                <div class="hero-style19">
-                                    <span class="sub-title text-capitalize" data-ani="slideinup" data-ani-delay="0.2s">
-                                        <div class="icon-masking me-2">
-                                            <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}"></span>
-                                            <img src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}" alt="shape">
-                                        </div>Welcome to the Ultimate Smart Storage Solution
-                                    </span>
-                                    <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        Your one stop storage and moving partner </h1>
-                                    <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
-                                        From a small box to whole house or office items at movenstore we pack, pick, store and deliver.</p>
-                                    <div class="btn-group justify-content-center justify-content-xl-start " data-ani="slideinup" data-ani-delay="0.9s">
-                                        <a href="#" class="th-btn style-radius style3 text-capitalize">View
-                                            All Solutions</a>
-                                        <a href="#" class="th-btn style-radius style2 text-capitalize">Get A Quote</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-xl-5 mt-5">
-                                <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <!--594*688-->
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.webp') }}" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="hero-inner">
-                    <div class="container th-container4">
-                        <div class="row align-items-end">
-                            <div class="col-xl-7">
+                            <div class="col-xl-7 space-extra-bottom">
                                 <div class="hero-style19">
                                     <span class="sub-title text-capitalize" data-ani="slideinup" data-ani-delay="0.2s">
                                         <div class="icon-masking me-2">
@@ -102,7 +68,41 @@ Hero Area
                             <div class="col-xl-5 mt-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
                                     <!--634*618-->
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.webp') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="hero-inner">
+                    <div class="container th-container4">
+                        <div class="row align-items-end">
+                            <div class="col-xl-7 space-extra-bottom">
+                                <div class="hero-style19">
+                                    <span class="sub-title text-capitalize" data-ani="slideinup" data-ani-delay="0.2s">
+                                        <div class="icon-masking me-2">
+                                            <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}"></span>
+                                            <img src="{{ asset('/web/assets/img/theme-img/title_shape_5.1.svg') }}" alt="shape">
+                                        </div>Welcome to the Ultimate Smart Storage Solution
+                                    </span>
+                                    <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                        Your one stop storage and moving partner </h1>
+                                    <p class="hero-text" data-ani="slideinup" data-ani-delay="0.6s">
+                                        From a small box to whole house or office items at movenstore we pack, pick, store and deliver.</p>
+                                    <div class="btn-group justify-content-center justify-content-xl-start " data-ani="slideinup" data-ani-delay="0.9s">
+                                        <a href="#" class="th-btn style-radius style3 text-capitalize">View
+                                            All Solutions</a>
+                                        <a href="#" class="th-btn style-radius style2 text-capitalize">Get A Quote</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-5 mt-5">
+                                <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
+                                    <!--634*618-->
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.png') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -229,7 +229,7 @@ About Area
                         <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/normal/about_3_1-shape.png') }}"></span>
                         <img src="{{ asset('/web/assets/img/normal/about_3_1-shape.png') }}" alt="img">
                     </div>
-                    <img src="{{ asset('/web/assets/img/normal/about_3_1.png') }}" alt="About">
+                    <img src="{{ asset('/web/assets/img/normal/about_3_1.webp') }}" alt="About">
                     <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>
                 </div>
             </div>
@@ -240,7 +240,7 @@ About Area
                         <div class="icon-masking me-2">
                             <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}"></span>
                             <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
-                        </div>About WEBTECK IT SOLUTIONS
+                        </div>About Move N Store
                     </span>
                     <h2 class="sec-title">We Are Increasing Business Success With <span class="text-theme">Technology</span></h2>
                 </div>
@@ -253,7 +253,7 @@ About Area
                     <div class="filter-item w-100 cat1">
                         <div class="achivement-box">
                             <div class="achivement-box_img">
-                                <img src="{{ asset('/web/assets/img/normal/about_3_1_1.jpg') }}" alt="About">
+                                <img src="{{ asset('/web/assets/img/normal/about_3_1_1.png') }}" alt="About">
                             </div>
                             <div class="media-body">
                                 <h3 class="box-title">An Award-Winning Company.</h3>
@@ -265,7 +265,7 @@ About Area
                     <div class="filter-item w-100 cat2">
                         <div class="achivement-box">
                             <div class="achivement-box_img">
-                                <img src="{{ asset('/web/assets/img/normal/about_3_1_2.jpg') }}" alt="About">
+                                <img src="{{ asset('/web/assets/img/normal/about_3_1_2.png') }}" alt="About">
                             </div>
                             <div class="media-body">
                                 <h3 class="box-title">Having 25+ Years Of Experience.</h3>
@@ -401,280 +401,11 @@ Process Area
             </div>
         </div>
     </div>
-</section><!--==============================
-Team Area  
-==============================-->
-<section class="" id="team-sec">
-    <div class="brand-sec1" data-pos-for="#process-sec" data-sec-pos="top-half">
-        <div class="container py-5">
-            <div class="slider-area text-center">
-                <div class="swiper th-slider" id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"5"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_1.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_2.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_3.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_4.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_5.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_6.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_1.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_2.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_3.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_4.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_5.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-box py-20">
-                                <img src="{{ asset('/web/assets/img/brand/brand_2_6.png') }}" alt="Brand Logo">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <button data-slider-prev="#brandSlider1" class="slider-arrow style3 slider-prev"><i class="far fa-arrow-left"></i></button>
-                <button data-slider-next="#brandSlider1" class="slider-arrow style3 slider-next"><i class="far fa-arrow-right"></i></button>
-            </div>
-        </div>
-    </div>
-    <div class="container space">
-        <div class="title-area text-center">
-            <div class="shadow-title">Team</div>
-            <span class="sub-title">
-                <div class="icon-masking me-2">
-                    <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}"></span>
-                    <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
-                </div>
-                GREAT TEAM
-            </span>
-            <h2 class="sec-title">See Our Skilled Expert <span class="text-theme">Team</span></h2>
-        </div>
-
-        <div class="slider-area">
-            <div class="swiper th-slider has-shadow" id="teamSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
-                <div class="swiper-wrapper">
-                    <!-- Single Item -->
-                    <div class="swiper-slide">
-                        <div class="th-team team-grid">
-                            <div class="team-img">
-                                <img src="{{ asset('/web/assets/img/team/team_3_1.jpg') }}" alt="Team">
-                            </div>
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="th-social">
-                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Rayan Athels</a></h3>
-                            <span class="team-desig">Founder & CEO</span>
-                            <div class="box-particle" id="team-p1"></div>
-                        </div>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="swiper-slide">
-                        <div class="th-team team-grid">
-                            <div class="team-img">
-                                <img src="{{ asset('/web/assets/img/team/team_3_2.jpg') }}" alt="Team">
-                            </div>
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="th-social">
-                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Alex Furnandes</a></h3>
-                            <span class="team-desig">Project Manager</span>
-                            <div class="box-particle" id="team-p2"></div>
-                        </div>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="swiper-slide">
-                        <div class="th-team team-grid">
-                            <div class="team-img">
-                                <img src="{{ asset('/web/assets/img/team/team_3_3.jpg') }}" alt="Team">
-                            </div>
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="th-social">
-                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Mary Crispy</a></h3>
-                            <span class="team-desig">Cheif Expert</span>
-                            <div class="box-particle" id="team-p3"></div>
-                        </div>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="swiper-slide">
-                        <div class="th-team team-grid">
-                            <div class="team-img">
-                                <img src="{{ asset('/web/assets/img/team/team_3_4.jpg') }}" alt="Team">
-                            </div>
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="th-social">
-                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Henry Joshep</a></h3>
-                            <span class="team-desig">Product Manager</span>
-                            <div class="box-particle" id="team-p4"></div>
-                        </div>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="swiper-slide">
-                        <div class="th-team team-grid">
-                            <div class="team-img">
-                                <img src="{{ asset('/web/assets/img/team/team_3_1.jpg') }}" alt="Team">
-                            </div>
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="th-social">
-                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Rayan Athels</a></h3>
-                            <span class="team-desig">Founder & CEO</span>
-                            <div class="box-particle" id="team-p1"></div>
-                        </div>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="swiper-slide">
-                        <div class="th-team team-grid">
-                            <div class="team-img">
-                                <img src="{{ asset('/web/assets/img/team/team_3_2.jpg') }}" alt="Team">
-                            </div>
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="th-social">
-                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Alex Furnandes</a></h3>
-                            <span class="team-desig">Project Manager</span>
-                            <div class="box-particle" id="team-p2"></div>
-                        </div>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="swiper-slide">
-                        <div class="th-team team-grid">
-                            <div class="team-img">
-                                <img src="{{ asset('/web/assets/img/team/team_3_3.jpg') }}" alt="Team">
-                            </div>
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="th-social">
-                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Mary Crispy</a></h3>
-                            <span class="team-desig">Cheif Expert</span>
-                            <div class="box-particle" id="team-p3"></div>
-                        </div>
-                    </div>
-
-                    <!-- Single Item -->
-                    <div class="swiper-slide">
-                        <div class="th-team team-grid">
-                            <div class="team-img">
-                                <img src="{{ asset('/web/assets/img/team/team_3_4.jpg') }}" alt="Team">
-                            </div>
-                            <div class="team-social">
-                                <div class="play-btn"><i class="far fa-plus"></i></div>
-                                <div class="th-social">
-                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <h3 class="box-title"><a href="team-details.html">Henry Joshep</a></h3>
-                            <span class="team-desig">Product Manager</span>
-                            <div class="box-particle" id="team-p4"></div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <button data-slider-prev="#teamSlider1" class="slider-arrow style3 slider-prev"><i class="far fa-arrow-left"></i></button>
-            <button data-slider-next="#teamSlider1" class="slider-arrow style3 slider-next"><i class="far fa-arrow-right"></i></button>
-        </div>
-
-    </div>
-    <div class="shape-mockup" data-top="0" data-right="0"><img src="{{ asset('/web/assets/img/shape/tech_shape_1.png') }}" alt="shape"></div>
-    <div class="shape-mockup" data-top="0%" data-left="0%"><img src="{{ asset('/web/assets/img/shape/square_1.png') }}" alt="shape"></div>
-</section><!--==============================
+</section>
+<!--==============================
 Testimonial Area  
 ==============================-->
-<section class="bg-top-center space" data-bg-src="{{ asset('/web/assets/img/bg/testi_bg_3.jpg') }}">
+<section class="bg-top-center space" data-bg-src="{{ asset('/web/assets/img/bg/testi_bg_3.webp') }}">
     <div class="container">
         <div class="title-area text-center">
             <div class="shadow-title color2">TESTIMONIALS</div>
@@ -850,7 +581,7 @@ Cta Area
             <div class="row">
                 <div class="col-lg-5">
                     <div class="cta-box_img">
-                        <img src="{{ asset('/web/assets/img/normal/customer_support.jpg') }}" alt="Image">
+                        <img src="{{ asset('/web/assets/img/normal/customer_support.webp') }}" alt="Image">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -865,206 +596,15 @@ Cta Area
                                     <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}"></span>
                                     <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
                                 </div>
-                                LET’S CONSULTATION
+                                LET’S TALK
                             </span>
-                            <h2 class="sec-title">Let’s Talk About Business Solutions <span class="text-theme">With Us</span></h2>
+                            <h2 class="sec-title">Let’s Talk About Storage Solutions <span class="text-theme">With Us</span></h2>
                         </div>
-                        <a href="contact.html" class="th-btn">CONTACT US<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <a href="#" class="th-btn">CONTACT US<i class="fa-regular fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section><!--==============================
-Blog Area  
-==============================-->
-<section class="bg-top-right bg-smoke overflow-hidden space" id="blog-sec" data-bg-src="{{ asset('/web/assets/img/bg/blog_bg_1.png') }}">
-    <div class="container">
-        <div class="title-area text-center">
-            <div class="shadow-title color3">Update</div>
-            <span class="sub-title">
-                <div class="icon-masking me-2">
-                    <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}"></span>
-                    <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
-                </div>
-                NEWS & ARTICLES
-            </span>
-            <h2 class="sec-title">Get Every Single Update <span class="text-theme">Blog</span></h2>
-        </div>
-
-        <div class="slider-area">
-            <div class="swiper th-slider has-shadow" id="blogSlider2" data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="{{ asset('/web/assets/img/blog/blog_1_1.jpg') }}" alt="blog image">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <a href="blog.html"><i class="fal fa-calendar-days"></i>15 Jan, 2024</a>
-                                    <a href="blog.html"><i class="fal fa-comments"></i>2 Comments</a>
-                                </div>
-                                <h3 class="box-title"><a href="blog-details.html">Unsatiable entreaties may collecting Power.</a></h3>
-                                <p class="blog-text">Progressively plagiarize quality metrics for impactful data. Assertively. Holisticly leverage existing magnetic.</p>
-                                <div class="blog-bottom">
-                                    <a href="blog.html" class="author"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Themeholy</a>
-                                    <a href="blog-details.html" class="line-btn">Read More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="{{ asset('/web/assets/img/blog/blog_1_2.jpg') }}" alt="blog image">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <a href="blog.html"><i class="fal fa-calendar-days"></i>16 Jan, 2024</a>
-                                    <a href="blog.html"><i class="fal fa-comments"></i>3 Comments</a>
-                                </div>
-                                <h3 class="box-title"><a href="blog-details.html">Regional Manager & limited time management.</a></h3>
-                                <p class="blog-text">Progressively plagiarize quality metrics for impactful data. Assertively. Holisticly leverage existing magnetic.</p>
-                                <div class="blog-bottom">
-                                    <a href="blog.html" class="author"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Themeholy</a>
-                                    <a href="blog-details.html" class="line-btn">Read More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="{{ asset('/web/assets/img/blog/blog_1_3.jpg') }}" alt="blog image">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <a href="blog.html"><i class="fal fa-calendar-days"></i>17 Jan, 2024</a>
-                                    <a href="blog.html"><i class="fal fa-comments"></i>2 Comments</a>
-                                </div>
-                                <h3 class="box-title"><a href="blog-details.html">What’s the Holding Back the It Solution Industry?</a></h3>
-                                <p class="blog-text">Progressively plagiarize quality metrics for impactful data. Assertively. Holisticly leverage existing magnetic.</p>
-                                <div class="blog-bottom">
-                                    <a href="blog.html" class="author"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Themeholy</a>
-                                    <a href="blog-details.html" class="line-btn">Read More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="{{ asset('/web/assets/img/blog/blog_1_4.jpg') }}" alt="blog image">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <a href="blog.html"><i class="fal fa-calendar-days"></i>19 Jan, 2024</a>
-                                    <a href="blog.html"><i class="fal fa-comments"></i>4 Comments</a>
-                                </div>
-                                <h3 class="box-title"><a href="blog-details.html">Latin derived from Cicero's 1st-century BC</a></h3>
-                                <p class="blog-text">Progressively plagiarize quality metrics for impactful data. Assertively. Holisticly leverage existing magnetic.</p>
-                                <div class="blog-bottom">
-                                    <a href="blog.html" class="author"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Themeholy</a>
-                                    <a href="blog-details.html" class="line-btn">Read More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="{{ asset('/web/assets/img/blog/blog_1_1.jpg') }}" alt="blog image">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <a href="blog.html"><i class="fal fa-calendar-days"></i>15 Jan, 2024</a>
-                                    <a href="blog.html"><i class="fal fa-comments"></i>2 Comments</a>
-                                </div>
-                                <h3 class="box-title"><a href="blog-details.html">Unsatiable entreaties may collecting Power.</a></h3>
-                                <p class="blog-text">Progressively plagiarize quality metrics for impactful data. Assertively. Holisticly leverage existing magnetic.</p>
-                                <div class="blog-bottom">
-                                    <a href="blog.html" class="author"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Themeholy</a>
-                                    <a href="blog-details.html" class="line-btn">Read More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="{{ asset('/web/assets/img/blog/blog_1_2.jpg') }}" alt="blog image">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <a href="blog.html"><i class="fal fa-calendar-days"></i>16 Jan, 2024</a>
-                                    <a href="blog.html"><i class="fal fa-comments"></i>3 Comments</a>
-                                </div>
-                                <h3 class="box-title"><a href="blog-details.html">Regional Manager & limited time management.</a></h3>
-                                <p class="blog-text">Progressively plagiarize quality metrics for impactful data. Assertively. Holisticly leverage existing magnetic.</p>
-                                <div class="blog-bottom">
-                                    <a href="blog.html" class="author"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Themeholy</a>
-                                    <a href="blog-details.html" class="line-btn">Read More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="{{ asset('/web/assets/img/blog/blog_1_3.jpg') }}" alt="blog image">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <a href="blog.html"><i class="fal fa-calendar-days"></i>17 Jan, 2024</a>
-                                    <a href="blog.html"><i class="fal fa-comments"></i>2 Comments</a>
-                                </div>
-                                <h3 class="box-title"><a href="blog-details.html">What’s the Holding Back the It Solution Industry?</a></h3>
-                                <p class="blog-text">Progressively plagiarize quality metrics for impactful data. Assertively. Holisticly leverage existing magnetic.</p>
-                                <div class="blog-bottom">
-                                    <a href="blog.html" class="author"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Themeholy</a>
-                                    <a href="blog-details.html" class="line-btn">Read More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="blog-card">
-                            <div class="blog-img">
-                                <img src="{{ asset('/web/assets/img/blog/blog_1_4.jpg') }}" alt="blog image">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <a href="blog.html"><i class="fal fa-calendar-days"></i>19 Jan, 2024</a>
-                                    <a href="blog.html"><i class="fal fa-comments"></i>4 Comments</a>
-                                </div>
-                                <h3 class="box-title"><a href="blog-details.html">Latin derived from Cicero's 1st-century BC</a></h3>
-                                <p class="blog-text">Progressively plagiarize quality metrics for impactful data. Assertively. Holisticly leverage existing magnetic.</p>
-                                <div class="blog-bottom">
-                                    <a href="blog.html" class="author"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Themeholy</a>
-                                    <a href="blog-details.html" class="line-btn">Read More<i class="fas fa-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <button data-slider-prev="#blogSlider2" class="slider-arrow style3 slider-prev"><i class="far fa-arrow-left"></i></button>
-            <button data-slider-next="#blogSlider2" class="slider-arrow style3 slider-next"><i class="far fa-arrow-right"></i></button>
-        </div>
-    </div>
-    <div class="shape-mockup" data-bottom="0" data-left="0">
-        <div class="particle-2 small" id="particle-4"></div>
-    </div>
-</section><!--==============================
-	Footer Area
-==============================-->
+</section>
 @endsection("webcontent")
