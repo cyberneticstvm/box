@@ -114,12 +114,12 @@
                 <div class="row justify-content-between">
                     <div class="col-md-6 col-xxl-3 col-xl-4">
                         <div class="widget footer-widget">
-                            <h3 class="widget_title">About Company</h3>
+                            <h3 class="widget_title">Move N Store</h3>
                             <div class="th-widget-about">
-                                <p class="about-text">Professionally redefine transparent ROI through low-risk high-yield imperatives. Progressively create empowered. cost effective users via team driven.</p>
+                                <p class="about-text text-justify">At MoveN Store, we stand out in the storage industry thanks to our smart and advanced storage facilities, user-friendly online platform, affordable pricing, and innovative storage-by-the-box concept. Our commitment to excellence ensures a seamless experience for all your storage needs.</p>
                                 <div class="th-social">
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/"><i class="fab fa-x-twitter"></i></a>
+                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                                     <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                                     <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
                                     <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
@@ -132,11 +132,11 @@
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Why Choose Us</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
+                                    <li><a href="{{ route('wcu') }}">Why Choose Us</a></li>
                                     <li><a href="#">How It Works</a></li>
                                     <li><a href="#">Blogs</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -146,11 +146,10 @@
                             <h3 class="widget_title">OUR SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="#">Storage by Box</a></li>
-                                    <li><a href="#">Suitcase and Luggage storage</a></li>
-                                    <li><a href="#">Furniture Storage</a></li>
+                                    <li><a href="#">Household Storage</a></li>
+                                    <li><a href="#">Box Storage</a></li>
                                     <li><a href="#">Office Storage</a></li>
-                                    <li><a href="#">Movers and Packaers</a></li>
+                                    <li><a href="{{ route('pandm') }}">Packers and Movers</a></li>
                                 </ul>
                             </div>
                         </div>

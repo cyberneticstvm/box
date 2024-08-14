@@ -157,7 +157,7 @@ Service Area
                                 <h3 class="box-title"><a href="#">HOUSEHOLD STORAGE </a></h3>
                                 <p class="service-grid_text text-justify">With our state of the art storage facilties Movenstore provides a variety of storage options for your household furniture and all other items .</p>
                                 <br /><br />
-                                <a href="#" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="#" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
                                     <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
                                 </div>
@@ -173,7 +173,7 @@ Service Area
                                 <h3 class="box-title"><a href="#">BOX STORAGE </a></h3>
                                 <p class="service-grid_text text-justify">At Movenstore you don't need pay huge amount if you have few items ,simply send us the list or pictures of the items and we will charge only for the space you use.</p>
                                 <br />
-                                <a href="#" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="#" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
                                     <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
                                 </div>
@@ -189,7 +189,7 @@ Service Area
                                 <h3 class="box-title"><a href="#">OFFICE STORAGE </a></h3>
                                 <p class="service-grid_text text-justify">Movenstore provides bespoke storage packages suitable for all your commercial storage needs. we apply special discounts for small businesses and young entrepreneurs.</p>
                                 <br />
-                                <a href="#" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="#" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
                                     <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
                                 </div>
@@ -204,7 +204,7 @@ Service Area
                             <div class="service-grid_content">
                                 <h3 class="box-title"><a href="#">MOVERS AND PACKERS </a></h3>
                                 <p class="service-grid_text text-justify">professional packers, quality packing materials, and expert moving team is paramount in storage or moving process. Our team is equipped with all of those qualities with 15 years of experience.</p>
-                                <a href="#" class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="#" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
                                     <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
                                 </div>
@@ -242,12 +242,12 @@ About Area
                             <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
                         </div>About Move N Store
                     </span>
-                    <h2 class="sec-title">We Are Increasing Business Success With <span class="text-theme">Technology</span></h2>
+                    <h2 class="sec-title">We Are Increasing Business Success With <span class="text-theme">Advanced Facility Storage</span></h2>
                 </div>
-                <p class="mt-n2 mb-30 text-center text-xl-start">Synergistically incentivize effective imperatives through fully researched intellectual capital. Appropriately fashion client-based.</p>
+                <p class="mt-n2 mb-30 text-justify text-xl-start">Welcome to Movenstore, your reliable partner for premium moving and self-storage solutions in Dubai. With extensive experience in the industry, we have successfully assisted thousands of clients in relocating throughout Dubai, Sharjah, and Ajman. Whether you're moving a villa, furniture, or a commercial space, our expert team ensures a smooth and stress-free experience from start to finish.</p>
                 <div class="achivement-tab filter-menu-active indicator-active">
-                    <button data-filter=".cat1" class="active" type="button">Award Winning</button>
-                    <button data-filter=".cat2" type="button">Technology Index</button>
+                    <button data-filter=".cat1" class="active" type="button">Eco-Friendly Storage</button>
+                    <button data-filter=".cat2" type="button">15+ Years of Experience</button>
                 </div>
                 <div class="achivement-box-area filter-active-cat1">
                     <div class="filter-item w-100 cat1">
@@ -256,9 +256,9 @@ About Area
                                 <img src="{{ asset('/web/assets/img/normal/about_3_1_1.png') }}" alt="About">
                             </div>
                             <div class="media-body">
-                                <h3 class="box-title">An Award-Winning Company.</h3>
-                                <p class="achivement-box_text">Monotonically matrix extensible applications and go forward communities. Synergistically extend client-based manufactured.</p>
-                                <a href="about.html" class="th-btn">About More</a>
+                                <h3 class="box-title">Eco-Friendly Storage</h3>
+                                <p class="achivement-box_text text-justify">We prioritize sustainability by utilizing eco-friendly materials and practices in our storage solutions. Our commitment to minimizing environmental impact means you can store your items guilt-free, knowing you're contributing to a greener planet.</p>
+                                <a href="#" class="th-btn">About More</a>
                             </div>
                         </div>
                     </div>
@@ -268,9 +268,9 @@ About Area
                                 <img src="{{ asset('/web/assets/img/normal/about_3_1_2.png') }}" alt="About">
                             </div>
                             <div class="media-body">
-                                <h3 class="box-title">Having 25+ Years Of Experience.</h3>
-                                <p class="achivement-box_text">Monotonically matrix extensible applications and go forward communities. Synergistically extend client-based manufactured.</p>
-                                <a href="about.html" class="th-btn">About More</a>
+                                <h3 class="box-title">Having 15+ Years Of Experience.</h3>
+                                <p class="achivement-box_text text-justify">With more than 15 years of experience in the storage industry, we have honed our skills and expertise to deliver the best possible service to our clients. Our long-standing commitment to excellence ensures that you receive reliable, professional, and knowledgeable support for all your storage needs. Choose MoveN Store for a seamless, secure, and eco-friendly storage experience that goes above and beyond your expectations!</p>
+                                <a href="#" class="th-btn">About More</a>
                             </div>
                         </div>
                     </div>
@@ -434,9 +434,8 @@ Testimonial Area
                                 <i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i>
                             </div>
                             <div class="testi-grid_content">
-                                <p class="testi-grid_text">Objectively visualize error-free technology for B2B alignment. Monotonectally harness an expanded array of models via effective collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                <h3 class="box-title">David Farnandes</h3>
-                                <p class="testi-grid_desig">CEO at Anaton</p>
+                                <p class="testi-grid_text text-justify"> "Movenstore exceeded my expectations with their exceptional customer service and top-notch facilities. The storage spaces are clean, secure, and easily accessible. I felt confident knowing my belongings were in safe hands with their 24-hour CCTV surveillance and modern alarm systems."</p>
+                                <h3 class="box-title">Aisha Hassan</h3>
                             </div>
                         </div>
                     </div>
@@ -452,9 +451,8 @@ Testimonial Area
                                 <i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i>
                             </div>
                             <div class="testi-grid_content">
-                                <p class="testi-grid_text">Objectively visualize error-free technology for B2B alignment. Monotonectally harness an expanded array of models via effective collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                <h3 class="box-title">Jackline Techie</h3>
-                                <p class="testi-grid_desig">CEO at Kormola</p>
+                                <p class="testi-grid_text text-justify">"I had a fantastic experience with Movenstore. The staff were professional and accommodating, making my move smooth and stress-free. The convenience of their online payment system and the advanced security features gave me peace of mind that my items were well-protected."</p>
+                                <h3 class="box-title">James O'Connor</h3>
                             </div>
                         </div>
                     </div>
@@ -470,9 +468,8 @@ Testimonial Area
                                 <i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i>
                             </div>
                             <div class="testi-grid_content">
-                                <p class="testi-grid_text">Objectively visualize error-free technology for B2B alignment. Monotonectally harness an expanded array of models via effective collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                <h3 class="box-title">Abraham Khalil</h3>
-                                <p class="testi-grid_desig">CEO at Anatora</p>
+                                <p class="testi-grid_text text-justify">"Movenstore offers a perfect blend of traditional and smart storage solutions. Their dry and tidy facilities kept my valuables in excellent condition. The team was responsive and attentive, making the entire process hassle-free. I highly recommend them to anyone in Dubai!"</p>
+                                <h3 class="box-title">Fatima Al-Mansouri</h3>
                             </div>
                         </div>
                     </div>
@@ -488,9 +485,8 @@ Testimonial Area
                                 <i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i>
                             </div>
                             <div class="testi-grid_content">
-                                <p class="testi-grid_text">Objectively visualize error-free technology for B2B alignment. Monotonectally harness an expanded array of models via effective collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                <h3 class="box-title">Md Sumon Mia</h3>
-                                <p class="testi-grid_desig">CEO at Rimasu</p>
+                                <p class="testi-grid_text text-justify">"The customer service at Movenstore is outstanding! They made my move seamless and were always ready to assist with any inquiries. The storage space is not only safe and clean but also very convenient to access. I would definitely use their services again."</p>
+                                <h3 class="box-title">Liam Zhang</h3>
                             </div>
                         </div>
                     </div>
@@ -506,9 +502,8 @@ Testimonial Area
                                 <i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i>
                             </div>
                             <div class="testi-grid_content">
-                                <p class="testi-grid_text">Objectively visualize error-free technology for B2B alignment. Monotonectally harness an expanded array of models via effective collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                <h3 class="box-title">David Farnandes</h3>
-                                <p class="testi-grid_desig">CEO at Anaton</p>
+                                <p class="testi-grid_text text-justify">"I’m thoroughly impressed with Movenstore’s facilities and services. From the moment I walked in, I knew my items were in good hands. The security systems are top-of-the-line, and the staff is friendly and professional. It’s the best storage solution I’ve found in Dubai."</p>
+                                <h3 class="box-title">Sophia Rodrigues</h3>
                             </div>
                         </div>
                     </div>
@@ -524,9 +519,8 @@ Testimonial Area
                                 <i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i>
                             </div>
                             <div class="testi-grid_content">
-                                <p class="testi-grid_text">Objectively visualize error-free technology for B2B alignment. Monotonectally harness an expanded array of models via effective collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                <h3 class="box-title">Jackline Techie</h3>
-                                <p class="testi-grid_desig">CEO at Kormola</p>
+                                <p class="testi-grid_text text-justify">"Movenstore’s storage facilities are second to none. The space is clean, dry, and well-organized. Their customer service is exceptional, always willing to go the extra mile to make sure everything is perfect. The convenience of storing my goods here has been fantastic."</p>
+                                <h3 class="box-title">Ahmed Malik</h3>
                             </div>
                         </div>
                     </div>
@@ -542,9 +536,8 @@ Testimonial Area
                                 <i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i>
                             </div>
                             <div class="testi-grid_content">
-                                <p class="testi-grid_text">Objectively visualize error-free technology for B2B alignment. Monotonectally harness an expanded array of models via effective collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                <h3 class="box-title">Abraham Khalil</h3>
-                                <p class="testi-grid_desig">CEO at Anatora</p>
+                                <p class="testi-grid_text text-justify"> "Movenstore made my relocation so much easier. The team was professional and helpful, and the storage facilities are immaculate. I love that I can track my deliveries and payments online, and the around-the-clock security ensures my belongings are always safe."</p>
+                                <h3 class="box-title">Sarah Johnson</h3>
                             </div>
                         </div>
                     </div>
@@ -560,9 +553,8 @@ Testimonial Area
                                 <i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i>
                             </div>
                             <div class="testi-grid_content">
-                                <p class="testi-grid_text">Objectively visualize error-free technology for B2B alignment. Monotonectally harness an expanded array of models via effective collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                <h3 class="box-title">Md Sumon Mia</h3>
-                                <p class="testi-grid_desig">CEO at Rimasu</p>
+                                <p class="testi-grid_text text-justify"> "I’ve been storing my goods at Movenstore for a few months now, and I couldn’t be happier with the service. The staff is courteous, the facilities are spotless, and the security measures are impressive. The convenience and peace of mind they offer are unmatched."</p>
+                                <h3 class="box-title">Rajesh Patel</h3>
                             </div>
                         </div>
                     </div>

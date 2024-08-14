@@ -38,19 +38,18 @@
                         <nav class="main-menu d-none d-lg-inline-block">
                             <ul>
                                 <li><a href="{{ route('index') }}">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Packers & Movers </a></li>
+                                <li><a href="{{ route('about') }}">About Us</a></li>
+                                <li><a href="{{ route('pandm') }}">Packers & Movers </a></li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Storage</a>
+                                    <a href="#">Storage Solutions</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Storage by Box</a></li>
-                                        <li><a href="#">Suitcase and Luggage storage</a></li>
-                                        <li><a href="#">Furniture Storage</a></li>
+                                        <li><a href="#">Household Storage</a></li>
+                                        <li><a href="#">Box Storage</a></li>
                                         <li><a href="#">Office Storage</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Contact Us</a>
+                                    <a href="{{ route('contact') }}">Contact Us</a>
                                 </li>
                             </ul>
                         </nav>
