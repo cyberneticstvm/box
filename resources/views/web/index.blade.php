@@ -308,7 +308,7 @@ Feature Area
                 <p class="mt-n2 mb-30 text-justify">At Move N Store, we stand out in the storage industry thanks to our smart and advanced storage facilities, user-friendly online platform, affordable pricing, and innovative storage-by-the-box concept. Our commitment to excellence ensures a seamless experience for all your storage needs.</p>
                 <div class="feature-circle-wrap">
                     <div class="feature-circle">
-                        <div class="progressbar" data-path-color="#684DF4">
+                        <div class="progressbar" data-path-color="#248ec7">
                             <div class="circle" data-percent="100">
                                 <div class="circle-num"></div>
                             </div>
@@ -319,7 +319,7 @@ Feature Area
                         </div>
                     </div>
                     <div class="feature-circle">
-                        <div class="progressbar" data-path-color="#684DF4">
+                        <div class="progressbar" data-path-color="#248ec7">
                             <div class="circle" data-percent="100">
                                 <div class="circle-num"></div>
                             </div>
