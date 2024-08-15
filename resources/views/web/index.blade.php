@@ -270,7 +270,7 @@ About Area
                             <div class="media-body">
                                 <h3 class="box-title">Having 15+ Years Of Experience.</h3>
                                 <p class="achivement-box_text text-justify">With more than 15 years of experience in the storage industry, we have honed our skills and expertise to deliver the best possible service to our clients. Our long-standing commitment to excellence ensures that you receive reliable, professional, and knowledgeable support for all your storage needs. Choose MoveN Store for a seamless, secure, and eco-friendly storage experience that goes above and beyond your expectations!</p>
-                                <a href="#" class="th-btn">About More</a>
+                                <a href="{{ route('about') }}" class="th-btn">About More</a>
                             </div>
                         </div>
                     </div>
