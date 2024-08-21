@@ -26,7 +26,7 @@
                     </div>
                     <div class="media-body">
                         <h4 class="box-title">Our Office Address</h4>
-                        <span class="contact-info_text">Burnsville, MN 55337 Streat, <br> United States</span>
+                        <span class="contact-info_text">Business Bay, Dubai, UAE</span>
                     </div>
                 </div>
             </div>
@@ -38,8 +38,7 @@
                     <div class="media-body">
                         <h4 class="box-title">Call Us Anytime</h4>
                         <span class="contact-info_text">
-                            <a href="tel:+65485965789">(+65) - 48596 - 5789</a>
-                            <a href="tel:+65485965789">+65-48596-5789</a>
+                            <a href="tel:+971545958276">+971 54 595 8276</a>
                         </span>
                     </div>
                 </div>
