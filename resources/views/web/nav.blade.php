@@ -5,8 +5,8 @@
                 <div class="col-auto d-none d-lg-block">
                     <div class="header-links">
                         <ul>
-                            <li><i class="fas fa-map-location"></i>54 NJ-12, Flemington, United States</li>
-                            <li><i class="fas fa-phone"></i><a href="tel:+1539873657">+153-987-3657</a></li>
+                            <li><i class="fas fa-map-location"></i>Business Bay, Dubai, UAE</li>
+                            <li><i class="fas fa-phone"></i><a href="tel:+971545958276">+971 54 595 8276</a></li>
                             <li><i class="fas fa-envelope"></i><a href="mailto:info@moveinstore.com">info@moveinstore.com</a></li>
                         </ul>
                     </div>
@@ -65,7 +65,7 @@
                                 <i class="far fa-shopping-cart"></i>
                                 <span class="badge">5</span>
                             </button>-->
-                            <a href="#" class="th-btn shadow-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
+                            <a href="{{ route('contact') }}" class="th-btn shadow-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>

@@ -78,7 +78,7 @@
                             </div>
                             <div class="media-body">
                                 <span class="btn-text">Call Us On:</span>
-                                <a href="tel:+19088000393" class="btn-title">+190-8800-0393</a>
+                                <a href="tel:+971545958276" class="btn-title">+971 54 595 8276</a>
                             </div>
                         </div>
                     </div>

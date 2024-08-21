@@ -34,6 +34,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ asset('/web/assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">-->
     <link rel="stylesheet" href="{{ asset('/web/assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="{{ asset('/web/assets/css/magnific-popup.min.css') }}">
@@ -121,7 +122,7 @@
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                                     <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                                     <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                                 </div>
                             </div>
@@ -160,23 +161,23 @@
                             <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/recent-post-2-1.jpg') }}" alt="Blog Image"></a>
+                                        <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/blog.svg') }}" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Unsatiable entreaties may collecting Power.</a></h4>
                                         <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>21 June, 2024</a>
+                                            <a href="#"><i class="fal fa-calendar-days"></i>21 June, 2024</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="recent-post">
                                     <div class="media-img">
-                                        <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/recent-post-2-2.jpg') }}" alt="Blog Image"></a>
+                                        <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/blog.svg') }}" alt="Blog Image"></a>
                                     </div>
                                     <div class="media-body">
                                         <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Regional Manager limited time management.</a></h4>
                                         <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fal fa-calendar-days"></i>22 June, 2024</a>
+                                            <a href="#"><i class="fal fa-calendar-days"></i>22 June, 2024</a>
                                         </div>
                                     </div>
                                 </div>
@@ -209,7 +210,10 @@
     <!--********************************
 			Code End  Here 
 	******************************** -->
-
+    <!--Whatsapp-->
+    <div class="floating">
+        <a href="https://api.whatsapp.com/send?phone=971545958276&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank"><img src="{{ asset('/web/assets/img/icon/whatsapp.svg') }}" alt="Move N Store Whatsapp" /></a>
+    </div>
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
