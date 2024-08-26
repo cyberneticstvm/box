@@ -129,13 +129,13 @@ Service Area
             <div class="col-lg-6 col-sm-9 pe-xl-5">
                 <div class="title-area text-center text-lg-start">
                     <div class="shadow-title color2">SOLUTIONS</div>
-                    <span class="sub-title">
+                    <!--<span class="sub-title">
                         <div class="icon-masking me-2">
                             <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}"></span>
                             <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
                         </div>WHAT WE DO
-                    </span>
-                    <h2 class="sec-title text-white">Your one stop storage and moving <span class="text-theme">Partner</span></h2>
+                    </span>-->
+                    <h2 class="sec-title text-white">WHAT WE DO</h2>
                 </div>
             </div>
             <div class="col-auto">
