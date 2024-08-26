@@ -16,6 +16,11 @@ class WebController extends Controller
         return view('web.about');
     }
 
+    function services()
+    {
+        return view('web.solutions.index');
+    }
+
     function pandm()
     {
         return view('web.pandm');

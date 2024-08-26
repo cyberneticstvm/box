@@ -147,9 +147,9 @@
                             <h3 class="widget_title">OUR SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="#">Household Storage</a></li>
-                                    <li><a href="#">Box Storage</a></li>
-                                    <li><a href="#">Office Storage</a></li>
+                                    <li><a href="{{ route('services') }}">Household Storage</a></li>
+                                    <li><a href="{{ route('services') }}">Box Storage</a></li>
+                                    <li><a href="{{ route('services') }}">Office Storage</a></li>
                                     <li><a href="{{ route('pandm') }}">Packers and Movers</a></li>
                                 </ul>
                             </div>

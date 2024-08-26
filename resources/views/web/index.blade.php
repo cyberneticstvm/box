@@ -140,7 +140,7 @@ Service Area
             </div>
             <div class="col-auto">
                 <div class="sec-btn">
-                    <a href="#" class="th-btn style3">VIEW ALL SOLUTIONS<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="{{ route('services') }}" class="th-btn style3">VIEW ALL SOLUTIONS<i class="fa-regular fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -443,7 +443,7 @@ Feature Area
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 col-xl-3">
+            <!--<div class="col-md-3 col-xl-3">
                 <div class="service-card">
                     <div class="service-card_number">05</div>
                     <div class="shape-icon">
@@ -456,7 +456,7 @@ Feature Area
                         <img src="{{ asset('/web/assets/img/bg/service_card_bg.png') }}" alt="bg">
                     </div>
                 </div>
-            </div>
+            </div>-->
 
             <div class="col-md-3 col-xl-3">
                 <div class="service-card">
@@ -508,7 +508,7 @@ Feature Area
                         <img src="{{ asset('/web/assets/img/icon/package.svg') }}" alt="Icon">
                         <span class="dots"></span>
                     </div>
-                    <h3 class="box-title"><a href="#">Boxes and Package Materials Available to Purchase on Site</a></h3>
+                    <h3 class="box-title"><a href="#">Package Materials</a></h3>
                     <p class="service-card_text text-justify"></p>
                     <div class="bg-shape">
                         <img src="{{ asset('/web/assets/img/bg/service_card_bg.png') }}" alt="bg">

@@ -8,6 +8,7 @@ Route::middleware(['web'])->group(function () {
         Route::get('/', 'index')->name('index');
         Route::get('/about-us', 'about')->name('about');
         Route::get('/packers-and-movers', 'pandm')->name('pandm');
+        Route::get('/services', 'services')->name('services');
         Route::get('/contact-us', 'contact')->name('contact');
         Route::get('/why-choose-us', 'wcu')->name('wcu');
         Route::get('/privacy-policy', 'privacy')->name('privacy.policy');
