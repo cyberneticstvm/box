@@ -39421,3 +39421,9 @@ span.select2-selection.select2-selection--single:focus {
 	right:20px;
   z-index: 9999;
 }
+.floating1 {
+  position:fixed;
+	bottom:175px;
+	right:20px;
+  z-index: 9999;
+}
