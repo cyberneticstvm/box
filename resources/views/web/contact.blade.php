@@ -51,7 +51,7 @@
                     <div class="media-body">
                         <h4 class="box-title">Send An Email</h4>
                         <span class="contact-info_text">
-                            <a href="mailto:info.moveinstore.com">info.moveinstore.com</a>
+                            <a href="mailto:info@moveinstore.com">info@moveinstore.com</a>
                         </span>
                     </div>
                 </div>
