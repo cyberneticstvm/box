@@ -41,11 +41,11 @@
                                 <li><a href="{{ route('about') }}">About Us</a></li>
                                 <li><a href="{{ route('pandm') }}">Packers & Movers </a></li>
                                 <li class="menu-item-has-children">
-                                    <a href="{{ route('services') }}">Storage Solutions</a>
+                                    <a href="#">Storage Solutions</a>
                                     <ul class="sub-menu">
-                                        <li><a href="{{ route('services') }}">Household Storage</a></li>
-                                        <li><a href="{{ route('services') }}">Box Storage</a></li>
-                                        <li><a href="{{ route('services') }}">Office Storage</a></li>
+                                        <li><a href="{{ route('services.hhs') }}">Household Storage</a></li>
+                                        <li><a href="{{ route('services.bs') }}">Box Storage</a></li>
+                                        <li><a href="{{ route('services.os') }}">Office Storage</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -54,8 +54,8 @@
                             </ul>
                         </nav>
                         <div class="header-button">
-                            <a href="#" class="th-btn shadow-none sideMenuToggler d-inline-block d-lg-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
-                            <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                            <a href="{{ route('contact') }}" class="th-btn shadow-none d-inline-block d-lg-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
+                            <button type="button" class="d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
                         </div>
                     </div>
                     <div class="col-auto d-none d-lg-block">

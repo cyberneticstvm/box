@@ -16,9 +16,17 @@ class WebController extends Controller
         return view('web.about');
     }
 
-    function services()
+    function hhs()
     {
-        return view('web.solutions.index');
+        return view('web.solutions.hhs');
+    }
+    function bs()
+    {
+        return view('web.solutions.bs');
+    }
+    function os()
+    {
+        return view('web.solutions.os');
     }
 
     function pandm()

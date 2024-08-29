@@ -140,7 +140,7 @@ Service Area
             </div>
             <div class="col-auto">
                 <div class="sec-btn">
-                    <a href="{{ route('services') }}" class="th-btn style3">VIEW ALL SOLUTIONS<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="{{ route('services.hhs') }}" class="th-btn style3">VIEW ALL SOLUTIONS<i class="fa-regular fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -154,10 +154,10 @@ Service Area
                                 <img src="{{ asset('/web/assets/img/icon/house.svg') }}" alt="Icon">
                             </div>
                             <div class="service-grid_content">
-                                <h3 class="box-title"><a href="#">HOUSEHOLD STORAGE </a></h3>
+                                <h3 class="box-title"><a href="{{ route('services.hhs') }}">HOUSEHOLD STORAGE </a></h3>
                                 <p class="service-grid_text text-justify">With our state of the art storage facilties Movenstore provides a variety of storage options for your household furniture and all other items .</p>
                                 <br /><br />
-                                <a href="#" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="{{ route('services.hhs') }}" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
                                     <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
                                 </div>
@@ -170,10 +170,10 @@ Service Area
                                 <img src="{{ asset('/web/assets/img/icon/box.svg') }}" alt="Icon">
                             </div>
                             <div class="service-grid_content">
-                                <h3 class="box-title"><a href="#">BOX STORAGE </a></h3>
+                                <h3 class="box-title"><a href="{{ route('services.bs') }}">BOX STORAGE </a></h3>
                                 <p class="service-grid_text text-justify">At Movenstore you don't need pay huge amount if you have few items ,simply send us the list or pictures of the items and we will charge only for the space you use.</p>
                                 <br />
-                                <a href="#" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="{{ route('services.bs') }}" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
                                     <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
                                 </div>
@@ -186,10 +186,10 @@ Service Area
                                 <img src="{{ asset('/web/assets/img/icon/office.svg') }}" alt="Icon">
                             </div>
                             <div class="service-grid_content">
-                                <h3 class="box-title"><a href="#">OFFICE STORAGE </a></h3>
+                                <h3 class="box-title"><a href="{{ route('services.os') }}">OFFICE STORAGE </a></h3>
                                 <p class="service-grid_text text-justify">Movenstore provides bespoke storage packages suitable for all your commercial storage needs. we apply special discounts for small businesses and young entrepreneurs.</p>
                                 <br />
-                                <a href="#" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="{{ route('services.os') }}" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
                                     <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
                                 </div>
@@ -202,9 +202,9 @@ Service Area
                                 <img src="{{ asset('/web/assets/img/icon/truck.svg') }}" alt="Icon">
                             </div>
                             <div class="service-grid_content">
-                                <h3 class="box-title"><a href="#">MOVERS AND PACKERS </a></h3>
+                                <h3 class="box-title"><a href="{{ route('pandm') }}">MOVERS AND PACKERS </a></h3>
                                 <p class="service-grid_text text-justify">professional packers, quality packing materials, and expert moving team is paramount in storage or moving process. Our team is equipped with all of those qualities with 15 years of experience.</p>
-                                <a href="#" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a href="{{ route('pandm') }}" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
                                     <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
                                 </div>
@@ -298,7 +298,7 @@ About Area
                         <img src="{{ asset('/web/assets/img/normal/about_3_1-shape.png') }}" alt="img">
                     </div>
                     <img src="{{ asset('/web/assets/img/normal/about_3_1.webp') }}" alt="About">
-                    <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>
+                    <!--<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>-->
                 </div>
             </div>
             <div class="col-xl-6">
@@ -709,7 +709,7 @@ Cta Area
                             </span>
                             <h2 class="sec-title">Let’s Talk About Storage Solutions <span class="text-theme">With Us</span></h2>
                         </div>
-                        <a href="#" class="th-btn">CONTACT US<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                        <a href="{{ route('contact') }}" class="th-btn">CONTACT US<i class="fa-regular fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>

@@ -20,7 +20,7 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-12">
-                <h3 class="about-feature_title text-justify">At Move N Store, we stand out in the storage industry thanks to our smart and advanced storage facilities, user-friendly online platform, affordable pricing, and innovative storage-by-the-box concept. Our commitment to excellence ensures a seamless experience for all your storage needs.</h3>
+                <p class="about-feature_title text-justify">At Move N Store, we stand out in the storage industry thanks to our smart and advanced storage facilities, user-friendly online platform, affordable pricing, and innovative storage-by-the-box concept. Our commitment to excellence ensures a seamless experience for all your storage needs.</p>
             </div>
             <div class="col-md-6 col-xl-4">
                 <div class="service-card">

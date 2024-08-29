@@ -54,19 +54,20 @@
                         <h3 class="widget_title">All Services</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="{{ route('services') }}">Household Storage</a></li>
-                                <li><a href="{{ route('services') }}">Box Storage</a></li>
-                                <li><a href="{{ route('services') }}">Office Storage</a></li>
+                                <li><a href="{{ route('services.hhs') }}">Household Storage</a></li>
+                                <li><a href="{{ route('services.bs') }}">Box Storage</a></li>
+                                <li><a href="{{ route('services.os') }}">Office Storage</a></li>
+                                <li><a href="{{ route('pandm') }}">Packers & Movers</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="widget widget_download  ">
+                    <!--<div class="widget widget_download  ">
                         <h4 class="widget_title">Download Brochure</h4>
                         <div class="download-widget-wrap">
                             <a href="service-details.html" class="th-btn"><i class="fa-light fa-file-pdf me-2"></i>DOWNLOAD PDF</a>
                             <a href="service-details.html" class="th-btn style5"><i class="fa-light fa-file-lines me-2"></i>DOWNLOAD DOC</a>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="widget widget_banner  " data-bg-src="{{ asset('/web/assets/img/service/service2.png') }}">
                         <div class="widget-banner">
                             <span class="text">CONTACT US NOW</span>

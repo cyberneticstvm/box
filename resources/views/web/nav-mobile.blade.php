@@ -11,11 +11,11 @@
                 <li><a href="{{ route('about') }}">About Us</a></li>
                 <li><a href="{{ route('pandm') }}">Packers & Movers </a></li>
                 <li class="menu-item-has-children">
-                    <a href="{{ route('services') }}">Storage Solutions</a>
+                    <a href="#">Storage Solutions</a>
                     <ul class="sub-menu">
-                        <li><a href="{{ route('services') }}">Household Storage</a></li>
-                        <li><a href="{{ route('services') }}">Box Storage</a></li>
-                        <li><a href="{{ route('services') }}">Office Storage</a></li>
+                        <li><a href="{{ route('services.hhs') }}">Household Storage</a></li>
+                        <li><a href="{{ route('services.bs') }}">Box Storage</a></li>
+                        <li><a href="{{ route('services.os') }}">Office Storage</a></li>
                     </ul>
                 </li>
                 <li>

@@ -7,8 +7,10 @@ Route::middleware(['web'])->group(function () {
     Route::controller(WebController::class)->group(function () {
         Route::get('/', 'index')->name('index');
         Route::get('/about-us', 'about')->name('about');
-        Route::get('/packers-and-movers', 'pandm')->name('pandm');
-        Route::get('/services', 'services')->name('services');
+        Route::get('/services/packers-and-movers', 'pandm')->name('pandm');
+        Route::get('/services/house-hold-storage', 'hhs')->name('services.hhs');
+        Route::get('/services/box-storage', 'bs')->name('services.bs');
+        Route::get('/services/office-storage', 'os')->name('services.os');
         Route::get('/contact-us', 'contact')->name('contact');
         Route::get('/why-choose-us', 'wcu')->name('wcu');
         Route::get('/privacy-policy', 'privacy')->name('privacy.policy');

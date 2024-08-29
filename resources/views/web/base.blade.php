@@ -135,8 +135,8 @@
                                 <ul class="menu">
                                     <li><a href="{{ route('about') }}">About Us</a></li>
                                     <li><a href="{{ route('wcu') }}">Why Choose Us</a></li>
-                                    <li><a href="#">How It Works</a></li>
-                                    <li><a href="#">Blogs</a></li>
+                                    <!--<li><a href="#">How It Works</a></li>
+                                    <li><a href="#">Blogs</a></li>-->
                                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </div>
@@ -147,9 +147,9 @@
                             <h3 class="widget_title">OUR SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="{{ route('services') }}">Household Storage</a></li>
-                                    <li><a href="{{ route('services') }}">Box Storage</a></li>
-                                    <li><a href="{{ route('services') }}">Office Storage</a></li>
+                                    <li><a href="{{ route('services.hhs') }}">Household Storage</a></li>
+                                    <li><a href="{{ route('services.bs') }}">Box Storage</a></li>
+                                    <li><a href="{{ route('services.os') }}">Office Storage</a></li>
                                     <li><a href="{{ route('pandm') }}">Packers and Movers</a></li>
                                 </ul>
                             </div>
@@ -158,7 +158,7 @@
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Recent Posts</h3>
-                            <div class="recent-post-wrap">
+                            <!--<div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/blog.svg') }}" alt="Blog Image"></a>
@@ -181,7 +181,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
