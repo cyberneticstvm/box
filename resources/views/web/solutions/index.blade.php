@@ -52,69 +52,6 @@
                         </div>
 
                         <p class="mb-4">Our expert storage consultant will advise you on what type of storage is best and cost effective for you belongings.</p>
-
-                        <h3 class="h4 mb-20">Benefits With Our Service</h3>
-
-                        <div class="service-feature-wrap">
-                            <div class="service-feature">
-                                <div class="service-feature_icon">
-                                    <img src="{{ asset('/web/assets/img/icon/service_feature_1.svg') }}" alt="icon">
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="service-feature_title">Flexible Solutions</h4>
-                                    <p class="service-feature_text">Completely grow multimedia based content before global scenarios.</p>
-                                </div>
-                            </div>
-                            <div class="service-feature">
-                                <div class="service-feature_icon">
-                                    <img src="{{ asset('/web/assets/img/icon/service_feature_2.svg') }}" alt="icon">
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="service-feature_title">24/7 Unlimited Support</h4>
-                                    <p class="service-feature_text">Completely grow multimedia based content before global scenarios.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h3 class="h4 mt-35 mb-4">Questions About Service</h3>
-                        <div class="accordion-area accordion" id="faqAccordion">
-
-
-                            <div class="accordion-card style2 active">
-                                <div class="accordion-header" id="collapse-item-1">
-                                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Where can I get analytics help?</button>
-                                </div>
-                                <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="faq-text">Synergistically evisculate ubiquitous niches whereas holistic resources. Assertively evolve prospective methods of empowerment before diverse web-readiness. Seamlessly incentivize market-driven schemas rather than clicks-and-mortar benefits.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion-card style2 ">
-                                <div class="accordion-header" id="collapse-item-2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">How long should a business plan be?</button>
-                                </div>
-                                <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="faq-text">Synergistically evisculate ubiquitous niches whereas holistic resources. Assertively evolve prospective methods of empowerment before diverse web-readiness. Seamlessly incentivize market-driven schemas rather than clicks-and-mortar benefits.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion-card style2 ">
-                                <div class="accordion-header" id="collapse-item-3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">How To Choose A Good QA Consultant?</button>
-                                </div>
-                                <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="faq-text">Synergistically evisculate ubiquitous niches whereas holistic resources. Assertively evolve prospective methods of empowerment before diverse web-readiness. Seamlessly incentivize market-driven schemas rather than clicks-and-mortar benefits.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
