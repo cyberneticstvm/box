@@ -33,7 +33,7 @@
                             <div class="col-md-6 mb-30">
                                 <div class="th-video">
                                     <img class="w-100" src="{{ asset('/web/assets/img/service/service1.png') }}" alt="service">
-                                    <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>
+                                    <!--<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>-->
                                 </div>
                             </div>
                             <div class="col-md-6 mb-30">
