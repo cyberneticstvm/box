@@ -25,7 +25,7 @@
                         <img src="{{ asset('/web/assets/img/service/1.png') }}" alt="Service Image">
                     </div>
                     <div class="page-content">
-                        <h2 class="h3 page-title">House hold furniture storage</h2>
+                        <h2 class="h3 page-title">Household furniture storage</h2>
                         <p>Relocating, moving,decluttering or renovating your house and in need of storing your household items some where ,safe secure,clean,dry and cost effective. </p>
                         <p class="mb-30">Movenstore is is your one stop logistic partner just simply call or text us our expert team will be at your step to provide free assessment and will quote you on the spot based on your items once accepted we will dismantle, pack,mark and store your goods in our secure facilities normally our clients store the following hold items with us </p>
 

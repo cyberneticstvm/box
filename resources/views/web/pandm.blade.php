@@ -34,11 +34,11 @@
                                 <h3 class="h4 mb-20">Our comprehensive services include:</h3>
                                 <div class="checklist style3">
                                     <ul>
-                                        <li><i class="fas fa-octagon-check"></i><strong>Residential and Commercial Relocation:</strong> Expertise in moving homes, offices, and businesses of all sizes.</li>
-                                        <li><i class="fas fa-octagon-check"></i><strong>Packing and Unpacking Services:</strong>High-quality packing materials and meticulous packing methods to protect your belongings.</li>
-                                        <li><i class="fas fa-octagon-check"></i><strong>Furniture Disassembly and Reassembly:</strong> Professional handling of large furniture, ensuring it fits perfectly in your new space.</li>
-                                        <li><i class="fas fa-octagon-check"></i><strong>Storage Solutions:</strong> Secure and flexible storage options for short-term and long-term needs.</li>
-                                        <li><i class="fas fa-octagon-check"></i><strong>Specialized Moving Services:</strong> Handling delicate and valuable items, including artwork, antiques, and pianos.</li>
+                                        <li><i class="fas fa-octagon-check pe-2"></i><strong>Residential and Commercial Relocation:</strong> Expertise in moving homes, offices, and businesses of all sizes.</li>
+                                        <li><i class="fas fa-octagon-check pe-2"></i><strong>Packing and Unpacking Services:</strong>High-quality packing materials and meticulous packing methods to protect your belongings.</li>
+                                        <li><i class="fas fa-octagon-check pe-2"></i><strong>Furniture Disassembly and Reassembly:</strong> Professional handling of large furniture, ensuring it fits perfectly in your new space.</li>
+                                        <li><i class="fas fa-octagon-check pe-2"></i><strong>Storage Solutions:</strong> Secure and flexible storage options for short-term and long-term needs.</li>
+                                        <li><i class="fas fa-octagon-check pe-2"></i><strong>Specialized Moving Services:</strong> Handling delicate and valuable items, including artwork, antiques, and pianos.</li>
                                     </ul>
                                 </div>
                             </div>

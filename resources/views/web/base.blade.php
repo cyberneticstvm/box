@@ -119,11 +119,11 @@
                             <div class="th-widget-about">
                                 <p class="about-text text-justify">At MoveN Store, we stand out in the storage industry thanks to our smart and advanced storage facilities, user-friendly online platform, affordable pricing, and innovative storage-by-the-box concept. Our commitment to excellence ensures a seamless experience for all your storage needs.</p>
                                 <div class="th-social">
-                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=61564755067880" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/company/move-n-store-llc" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -157,8 +157,8 @@
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget footer-widget">
-                            <h3 class="widget_title">Recent Posts</h3>
-                            <!--<div class="recent-post-wrap">
+                            <!--<h3 class="widget_title">Recent Posts</h3>
+                            <div class="recent-post-wrap">
                                 <div class="recent-post">
                                     <div class="media-img">
                                         <a href="blog-details.html"><img src="{{ asset('/web/assets/img/blog/blog.svg') }}" alt="Blog Image"></a>
