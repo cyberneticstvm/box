@@ -39428,3 +39428,7 @@ span.select2-selection.select2-selection--single:focus {
 	right:20px;
   z-index: 9999;
 }
+
+.modal.fade {
+  z-index: 10000000 !important;
+}
