@@ -34,7 +34,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ asset('/web/assets/css/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('/web/assets/css/fontawesome.min.css') }}">
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="{{ asset('/web/assets/css/magnific-popup.min.css') }}">
@@ -120,7 +120,7 @@
                                 <p class="about-text text-justify">At MoveN Store, we stand out in the storage industry thanks to our smart and advanced storage facilities, user-friendly online platform, affordable pricing, and innovative storage-by-the-box concept. Our commitment to excellence ensures a seamless experience for all your storage needs.</p>
                                 <div class="th-social">
                                     <a href="https://www.facebook.com/profile.php?id=61564755067880" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                                     <a href="https://www.linkedin.com/company/move-n-store-llc" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                     <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
                                     <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
@@ -259,6 +259,7 @@
     <script src="{{ asset('/web/assets/js/particles-config.js') }}"></script>
     <!-- Main Js File -->
     <script src="{{ asset('/web/assets/js/main.js') }}"></script>
+    <script src="{{ asset('/web/assets/js/script.js') }}"></script>
 
 </body>
 

@@ -18,6 +18,7 @@
                         <li><a href="{{ route('services.os') }}">Office Storage</a></li>
                     </ul>
                 </li>
+                <li><a href="{{ route('blogs') }}">Blogs</a></li>
                 <li>
                     <a href="{{ route('contact') }}">Contact Us</a>
                 </li>

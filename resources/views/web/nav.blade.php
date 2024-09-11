@@ -15,7 +15,7 @@
                     <div class="header-social">
                         <span class="social-title">Follow Us On : </span>
                         <a href="https://www.facebook.com/profile.php?id=61564755067880" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                         <a href="https://www.linkedin.com/company/move-n-store-llc" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
@@ -48,6 +48,7 @@
                                         <li><a href="{{ route('services.os') }}">Office Storage</a></li>
                                     </ul>
                                 </li>
+                                <li><a href="{{ route('blogs') }}">Blogs</a></li>
                                 <li>
                                     <a href="{{ route('contact') }}">Contact Us</a>
                                 </li>

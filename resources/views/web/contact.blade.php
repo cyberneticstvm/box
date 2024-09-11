@@ -72,30 +72,56 @@
                     </span>
                     <h2 class="sec-title">Have Any Questions?</h2>
                 </div>
-                <form action="mail.php" method="POST" class="contact-form ajax-contact">
+                <form action="{{ route('contact.submit') }}" method="POST" class="contact-form">
+                    @csrf
+                    @session('success')
+                    <div class="contact-form-success alert alert-success mt-4">
+                        {{ session('success') }}
+                    </div>
+                    @endsession
+                    @session('error')
+                    <div class="contact-form-error alert alert-danger mt-4">
+                        {{ session('error') }}
+                    </div>
+                    @endsession
                     <div class="row">
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                            <input type="text" class="form-control" name="name" id="name" value="{{ old('name') }}" placeholder="Your Name">
                             <i class="fal fa-user"></i>
+                            @error('name')
+                            <small class="text-danger">{{ $errors->first('name') }}</small>
+                            @enderror
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
-                            <i class="fal fa-envelope"></i>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                            <i class="fal fa-note"></i>
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number">
+                            <input type="tel" class="form-control" name="number" id="number" value="{{ old('number') }}" placeholder="Phone Number">
                             <i class="fal fa-phone"></i>
+                            @error('number')
+                            <small class="text-danger">{{ $errors->first('number') }}</small>
+                            @enderror
+                        </div>
+                        <div class="form-group col-md-12">
+                            <select class="form-control" name="service" id="service">
+                                <option value="">Select Service</option>
+                                <option value="pack-and-move">Packers & Movers</option>
+                                <option value="household-storage">Household Storage</option>
+                                <option value="box-storage">Box Storage</option>
+                                <option value="office-storage">Office Storage</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <i class="fal fa-arrow-down"></i>
+                            @error('service')
+                            <small class="text-danger">{{ $errors->first('service') }}</small>
+                            @enderror
                         </div>
                         <div class="form-group col-12">
-                            <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea>
+                            <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message">{{ old('message') }}</textarea>
                             <i class="fal fa-comment"></i>
+                            @error('message')
+                            <small class="text-danger">{{ $errors->first('message') }}</small>
+                            @enderror
                         </div>
                         <div class="form-btn text-xl-start text-center col-12">
-                            <button class="th-btn">Send Message<i class="fa-regular fa-arrow-right ms-2"></i></button>
+                            <button type="submit" class="th-btn btn-submit">Submit<i class="fa-regular fa-arrow-right ms-2"></i></button>
                         </div>
                     </div>
                     <p class="form-messages mb-0 mt-3"></p>
