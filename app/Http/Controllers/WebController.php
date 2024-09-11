@@ -53,6 +53,11 @@ class WebController extends Controller
         return view('web.privacy-policy');
     }
 
+    function landing()
+    {
+        return view('web.landing');
+    }
+
     function blogs()
     {
         return view('web.blogs');

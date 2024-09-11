@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['web'])->group(function () {
     Route::controller(WebController::class)->group(function () {
         Route::get('/', 'index')->name('index');
+        Route::get('/landing', 'landing')->name('landing');
         Route::get('/about-us', 'about')->name('about');
         Route::get('/services/packers-and-movers', 'pandm')->name('pandm');
         Route::get('/services/house-hold-storage', 'hhs')->name('services.hhs');
