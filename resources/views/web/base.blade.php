@@ -212,10 +212,10 @@
 	******************************** -->
     <!--Whatsapp-->
     <div class="floating">
-        <a href="https://api.whatsapp.com/send?phone=971545958276&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank"><img src="{{ asset('/web/assets/img/icon/whatsapp.svg') }}" alt="Move N Store Whatsapp" /></a>
+        <a href="https://api.whatsapp.com/send?phone=971548882525&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank"><img src="{{ asset('/web/assets/img/icon/whatsapp.svg') }}" alt="Move N Store Whatsapp" /></a>
     </div>
     <div class="floating1">
-        <a href="tel:+971545958276" target="_blank"><img src="{{ asset('/web/assets/img/icon/call-us.svg') }}" alt="Move N Store Call" /></a>
+        <a href="tel:+971548882525" target="_blank"><img src="{{ asset('/web/assets/img/icon/call-us.svg') }}" alt="Move N Store Call" /></a>
     </div>
     <!-- Scroll To Top -->
     <div class="scroll-top">

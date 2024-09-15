@@ -26,7 +26,7 @@
                     </div>
                     <div class="media-body">
                         <h4 class="box-title">Our Office Address</h4>
-                        <span class="contact-info_text">Business Bay, Dubai, UAE</span>
+                        <span class="contact-info_text">31 Street 5B, Al Quoz, Dubai, UAE</span>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                     <div class="media-body">
                         <h4 class="box-title">Call Us Anytime</h4>
                         <span class="contact-info_text">
-                            <a href="tel:+971545958276">+971 54 595 8276</a>
+                            <a href="tel:+971548882525">+971 54 888 2525</a>
                         </span>
                     </div>
                 </div>
