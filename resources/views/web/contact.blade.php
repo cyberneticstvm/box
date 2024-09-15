@@ -26,7 +26,7 @@
                     </div>
                     <div class="media-body">
                         <h4 class="box-title">Our Office Address</h4>
-                        <span class="contact-info_text">31 Street 5B, Al Quoz, Dubai, UAE</span>
+                        <span class="contact-info_text"><a href="https://maps.app.goo.gl/yvUWXEt9ZNnJZxWV8?g_st=aw" target="_blank">31 Street 5B, Al Quoz, Dubai, UAE</a></span>
                     </div>
                 </div>
             </div>

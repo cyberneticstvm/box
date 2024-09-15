@@ -5,7 +5,7 @@
                 <div class="col-auto d-none d-lg-block">
                     <div class="header-links">
                         <ul>
-                            <li><i class="fas fa-map-location"></i>31 Street 5B, Al Quoz, Dubai, UAE</li>
+                            <li><i class="fas fa-map-location"></i><a href="https://maps.app.goo.gl/yvUWXEt9ZNnJZxWV8?g_st=aw" target="_blank">31 Street 5B, Al Quoz, Dubai, UAE</a></li>
                             <li><i class="fas fa-phone"></i><a href="tel:+971548882525">+971 54 888 2525</a></li>
                             <li><i class="fas fa-envelope"></i><a href="mailto:info@moveinstore.com">info@moveinstore.com</a></li>
                         </ul>
