@@ -22,7 +22,7 @@
     <main>
         <header class="main-header style-2 navbar">
             <div class="col-brand">
-                <a href="index.html" class="brand-wrap">
+                <a href="{{ route('login') }}" class="brand-wrap">
                     <img src="{{ asset('/web/assets/img/logo-small.webp') }}" class="logo" alt="Aurega Blog">
                 </a>
             </div>
