@@ -61,22 +61,6 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="widget  ">
-                        <h3 class="widget_title">Recent Posts</h3>
-                        <div class="recent-post-wrap">
-                            <div class="recent-post">
-                                <div class="media-img">
-                                    <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="post-title"><a class="text-inherit" href="blog-details.html">Unsatiable entreaties may collecting Power.</a></h4>
-                                    <div class="recent-post-meta">
-                                        <a href="blog.html"><i class="fal fa-calendar-days"></i>21 June, 2024</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </aside>
             </div>
         </div>
