@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactFormSubmitEmail;
+use App\Models\Blog;
 use Exception;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -60,7 +61,14 @@ class WebController extends Controller
 
     function blogs()
     {
-        return view('web.blogs');
+        $blogs = Blog::where('status', 1)->latest()->get();
+        return view('web.blogs', compact('blogs'));
+    }
+
+    function blogDetails($slug)
+    {
+        $blog = Blog::where('slug', $slug)->first();
+        return view('web.blog-details', compact('blog'));
     }
 
     function refreshCaptcha()
