@@ -16,8 +16,11 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            'name' => 'Move N Store',
+            'username' => 'movenstore',
+            'email' => 'info@moveinstore.com',
+            'mobile' => '+971548882525',
+            'password' => bcrypt('0548882525'),
         ]);
     }
 }
