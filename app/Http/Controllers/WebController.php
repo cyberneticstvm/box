@@ -93,4 +93,14 @@ class WebController extends Controller
         }
         return redirect()->back()->with("success", "Contact form submitted successfully!");
     }
+
+    public function sitemap()
+    {
+        return response()->view('web.sitemap')->header('Content-Type', 'text/xml');
+    }
+
+    public function robots()
+    {
+        return response()->view('web.robots')->header('Content-Type', 'text/plain');
+    }
 }
