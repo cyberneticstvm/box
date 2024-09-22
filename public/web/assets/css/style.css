@@ -39432,3 +39432,6 @@ span.select2-selection.select2-selection--single:focus {
 .modal.fade {
   z-index: 10000000 !important;
 }
+.bg-gray{
+  background-color: #e3e7f0 !important;
+}
