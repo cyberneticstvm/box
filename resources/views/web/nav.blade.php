@@ -17,7 +17,7 @@
                         <a href="https://www.facebook.com/profile.php?id=61564755067880" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                         <a href="https://www.linkedin.com/company/move-n-store-llc" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/movenstore1" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
@@ -55,7 +55,11 @@
                             </ul>
                         </nav>
                         <div class="header-button">
+                            @if(request()->routeIs('landing'))
+                            <a href="#contact-sec" class="th-btn shadow-none d-inline-block d-lg-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
+                            @else
                             <a href="{{ route('contact') }}" class="th-btn shadow-none d-inline-block d-lg-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
+                            @endif
                             <button type="button" class="d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
                         </div>
                     </div>
@@ -66,7 +70,11 @@
                                 <i class="far fa-shopping-cart"></i>
                                 <span class="badge">5</span>
                             </button>-->
+                            @if(request()->routeIs('landing'))
+                            <a href="#contact-sec" class="th-btn shadow-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
+                            @else
                             <a href="{{ route('contact') }}" class="th-btn shadow-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
+                            @endif
                         </div>
                     </div>
                 </div>

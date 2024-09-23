@@ -8,6 +8,7 @@ use Exception;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Rules\ReCaptcha;
 
 class WebController extends Controller
 {
@@ -92,6 +93,20 @@ class WebController extends Controller
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
         return redirect()->back()->with("success", "Contact form submitted successfully!");
+    }
+
+    function submitQuote(Request $request)
+    {
+        $request->validate([
+            'firstname' => 'required',
+            'lastname' => 'required',
+            'email' => 'required|email',
+            'number' => 'required',
+            'service' => 'required',
+            'location' => 'required',
+            'g-recaptcha-response' => ['required', new ReCaptcha]
+        ]);
+        return redirect()->route('thankyou')->with(['success' => 'Contact Form Submit Successfully']);
     }
 
     public function sitemap()

@@ -480,7 +480,7 @@
                         </span>
                         <h2 class="sec-title">Get a Free Quote</h2>
                     </div>
-                    <form action="{{ route('contact.submit') }}" method="POST" class="contact-form">
+                    <form action="{{ route('quote.submit') }}" method="POST" class="contact-form" id="quoteForm">
                         @csrf
                         @session('success')
                         <div class="contact-form-success alert alert-success mt-4">
@@ -536,7 +536,7 @@
                                 @enderror
                             </div>
                             <div class="form-group col-md-6">
-                                <select class="form-control bg-gray" name="service" id="service">
+                                <select class="form-control bg-gray" name="location" id="location">
                                     <option value="">Select Location</option>
                                     <option value="Dubai">Dubai</option>
                                     <option value="Sharjah">Sharjah</option>
@@ -572,16 +572,9 @@
                                 <small class="text-danger">{{ $errors->first('message') }}</small>
                                 @enderror
                             </div>
-                            <div class="form-group col-6">
-                                <input id="captcha" type="text" class="form-control bg-gray" placeholder="Enter Captcha" name="captcha" required>
-                            </div>
-                            <div class="form-group col-6 captcha">
-                                <span class="fw-bold">ABK54</span>
-                                <a class="btn btn-success btn-refresh"><i class="fa fa-refresh"></i></a>
-                            </div>
-                            @error('captcha')
-                            <small class="text-danger">{{ $errors->first('captcha') }}</small>
-                            @enderror
+                            @if ($errors->has('g-recaptcha-response'))
+                            <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                            @endif
                             <div class="form-btn text-center col-12">
                                 <button type="submit" class="th-btn btn-submit">Submit<i class="fa-regular fa-arrow-right ms-2"></i></button>
                             </div>
@@ -679,6 +672,23 @@
     <!-- Main Js File -->
     <script src="{{ asset('/web/assets/js/main.js') }}"></script>
     <script src="{{ asset('/web/assets/js/script.js') }}"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js?render={{ env('GOOGLE_RECAPTCHA_KEY') }}"></script>
+
+    <script type="text/javascript">
+        $('#quoteForm').submit(function(event) {
+            event.preventDefault();
+
+            grecaptcha.ready(function() {
+                grecaptcha.execute("{{ env('GOOGLE_RECAPTCHA_KEY') }}", {
+                    action: 'subscribe_newsletter'
+                }).then(function(token) {
+                    $('#quoteForm').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
+                    $('#quoteForm').unbind('submit').submit();
+                });;
+            });
+        });
+    </script>
 
 </body>
 
