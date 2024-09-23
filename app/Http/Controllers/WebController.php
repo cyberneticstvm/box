@@ -116,26 +116,6 @@ class WebController extends Controller
         return redirect()->route('thankyou')->with(['success' => 'Contact Form Submit Successfully']);
     }
 
-    function submitQuote1(Request $request)
-    {
-        $request->validate([
-            'firstname' => 'required',
-            'lastname' => 'required',
-            'email' => 'required|email',
-            'number' => 'required',
-            'service' => 'required',
-            'location' => 'required',
-            'message' => 'required',
-            //'g-recaptcha-response' => ['required', new ReCaptcha]
-        ]);
-        try {
-            Mail::to('info@moveinstore.com')->send(new GetQuoteSubmitEmail($request));
-        } catch (Exception $e) {
-            return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
-        }
-        return redirect()->route('thankyou')->with(['success' => 'Contact Form Submit Successfully']);
-    }
-
     public function thankyou()
     {
         return view('web.thankyou');
