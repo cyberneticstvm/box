@@ -153,7 +153,7 @@
                         <div class="">
                             <h2 class="text-center">GET QUOTE</h2>
                         </div>
-                        <form action="{{ route('quote.submit') }}" method="POST" class="contact-form" id="quoteForm">
+                        <form action="{{ route('quote1.submit') }}" method="POST" class="contact-form" id="quoteForm">
                             @csrf
                             <input type="hidden" name="first" value="first" />
                             @session('success')
