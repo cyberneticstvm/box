@@ -38,7 +38,7 @@ class GetQuoteSubmitEmail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'view.get-quote-email',
+            view: 'web.get-quote-email',
             with: ['data' => $this->data],
         );
     }

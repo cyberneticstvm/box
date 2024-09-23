@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactFormSubmitEmail;
+use App\Mail\GetQuoteSubmitEmail;
 use App\Models\Blog;
 use Exception;
 use Illuminate\Http\RedirectResponse;
@@ -108,11 +109,16 @@ class WebController extends Controller
             //'g-recaptcha-response' => ['required', new ReCaptcha]
         ]);
         try {
-            Mail::to('info@moveinstore.com')->send(new ContactFormSubmitEmail($request));
+            Mail::to('info@moveinstore.com')->send(new GetQuoteSubmitEmail($request));
         } catch (Exception $e) {
             return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
         }
         return redirect()->route('thankyou')->with(['success' => 'Contact Form Submit Successfully']);
+    }
+
+    public function thankyou()
+    {
+        return view('web.thankyou');
     }
 
     public function sitemap()

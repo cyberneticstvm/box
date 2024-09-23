@@ -210,7 +210,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <select class="form-control bg-gray" name="service" id="service">
+                                    <select class="form-control bg-gray" name="location" id="location">
                                         <option value="">Select Location</option>
                                         <option value="Dubai">Dubai</option>
                                         <option value="Sharjah">Sharjah</option>

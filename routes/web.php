@@ -10,6 +10,7 @@ Route::middleware(['web'])->group(function () {
         Route::get('/', 'index')->name('index');
         Route::get('/get-a-quote', 'landing')->name('landing');
         Route::post('/get-a-quote', 'submitQuote')->name('quote.submit');
+        Route::get('/thank-you', 'thankyou')->name('thankyou');
         Route::get('/about-us', 'about')->name('about');
         Route::get('/services/packers-and-movers', 'pandm')->name('pandm');
         Route::get('/services/house-hold-storage', 'hhs')->name('services.hhs');
