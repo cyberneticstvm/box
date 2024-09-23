@@ -104,8 +104,14 @@ class WebController extends Controller
             'number' => 'required',
             'service' => 'required',
             'location' => 'required',
-            'g-recaptcha-response' => ['required', new ReCaptcha]
+            'message' => 'required',
+            //'g-recaptcha-response' => ['required', new ReCaptcha]
         ]);
+        try {
+            Mail::to('info@moveinstore.com')->send(new ContactFormSubmitEmail($request));
+        } catch (Exception $e) {
+            return redirect()->back()->with("error", $e->getMessage())->withInput($request->all());
+        }
         return redirect()->route('thankyou')->with(['success' => 'Contact Form Submit Successfully']);
     }
 

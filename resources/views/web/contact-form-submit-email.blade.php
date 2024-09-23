@@ -8,7 +8,7 @@
 <body>
     Dear MoveNStore,<br />
 
-    <p>You have received new message via websiet contact form.</p>
+    <p>You have received new message via website contact form.</p>
 
     <p>Name: {{ $data->name }}</p>
     <p>Contact number: {{ $data->number }}</p>

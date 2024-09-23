@@ -153,8 +153,9 @@
                         <div class="">
                             <h2 class="text-center">GET QUOTE</h2>
                         </div>
-                        <form action="{{ route('contact.submit') }}" method="POST" class="contact-form">
+                        <form action="{{ route('quote.submit') }}" method="POST" class="contact-form" id="quoteForm">
                             @csrf
+                            <input type="hidden" name="first" value="first" />
                             @session('success')
                             <div class="contact-form-success alert alert-success mt-4">
                                 {{ session('success') }}
@@ -232,7 +233,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-btn text-center col-12">
-                                    <button type="submit" class="th-btn btn-submit">Get Quote<i class="fa-regular fa-arrow-right ms-2"></i></button>
+                                    <button type="submit" class="th-btn btn-submit g-recaptcha" data-sitekey="6Ld3mkwqAAAAABzSHvDVOfa30aHM48tWnyYREdYO" data-callback='onSubmit' data-action='submit'>Get Quote<i class="fa-regular fa-arrow-right ms-2"></i></button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
@@ -482,6 +483,7 @@
                     </div>
                     <form action="{{ route('quote.submit') }}" method="POST" class="contact-form" id="quoteForm">
                         @csrf
+                        <input type="hidden" name="second" value="second" />
                         @session('success')
                         <div class="contact-form-success alert alert-success mt-4">
                             {{ session('success') }}
@@ -552,8 +554,7 @@
                                 @enderror
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control bg-gray" name="start_date" id="start_date" value="{{ old('start_date') }}" placeholder="Service Start Date">
-                                <i class="fal fa-calendar"></i>
+                                <input type="date" class="form-control bg-gray" name="start_date" id="start_date" value="{{ old('start_date') }}" placeholder="Service Start Date">
                                 @error('start_date')
                                 <small class="text-danger">{{ $errors->first('start_date') }}</small>
                                 @enderror
@@ -576,7 +577,7 @@
                             <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
                             @endif
                             <div class="form-btn text-center col-12">
-                                <button type="submit" class="th-btn btn-submit">Submit<i class="fa-regular fa-arrow-right ms-2"></i></button>
+                                <button type="submit" class="th-btn btn-submit g-recaptcha" data-sitekey="6Ld3mkwqAAAAABzSHvDVOfa30aHM48tWnyYREdYO" data-callback='onSubmit' data-action='submit'>Submit<i class="fa-regular fa-arrow-right ms-2"></i></button>
                             </div>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
@@ -671,23 +672,16 @@
     <script src="{{ asset('/web/assets/js/particles-config.js') }}"></script>
     <!-- Main Js File -->
     <script src="{{ asset('/web/assets/js/main.js') }}"></script>
-    <script src="{{ asset('/web/assets/js/script.js') }}"></script>
 
-    <script src="https://www.google.com/recaptcha/api.js?render={{ env('GOOGLE_RECAPTCHA_KEY') }}"></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Ld3mkwqAAAAABzSHvDVOfa30aHM48tWnyYREdYO"></script>
 
-    <script type="text/javascript">
-        $('#quoteForm').submit(function(event) {
-            event.preventDefault();
-
-            grecaptcha.ready(function() {
-                grecaptcha.execute("{{ env('GOOGLE_RECAPTCHA_KEY') }}", {
-                    action: 'subscribe_newsletter'
-                }).then(function(token) {
-                    $('#quoteForm').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
-                    $('#quoteForm').unbind('submit').submit();
-                });;
-            });
-        });
+    <!-- Replace the variables below. -->
+    <script>
+        function onSubmit(token) {
+            document.getElementById("quoteForm").submit();
+            $(".btn-submit").html("Loading...<span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>");
+            $(".btn-submit").attr("disabled", true);
+        }
     </script>
 
 </body>
