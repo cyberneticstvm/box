@@ -133,7 +133,7 @@
         <div class="hero-inner">
             <div class="container th-container4">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-6">
+                    <div class="col-xl-7">
                         <div class="hero-style21">
                             <span class="sub-title">Move N Store
                             </span>
@@ -149,7 +149,7 @@
                                 stress-free experience from start to finish.</p>
                         </div>
                     </div>
-                    <div class="col-xl-6 bg-white p-3">
+                    <div class="col-xl-4 bg-white p-3">
                         <div class="">
                             <h2 class="text-center">Request a Quote</h2>
                         </div>
