@@ -22,9 +22,9 @@
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Move In Store - Best Storage in Dubai</title>
-    <meta name="author" content="Themeholy">
-    <meta name="description" content="Move In Store - Box Storage">
+    <title>{{ $title }}</title>
+    <meta name="author" content="Cybernetics">
+    <meta name="description" content="{{ $desc }}">
     <meta name="keywords" content="Move In Store - Box Storage">
     <meta name="robots" content="INDEX,FOLLOW">
 
@@ -481,7 +481,7 @@
                         </span>
                         <h2 class="sec-title">Get a Free Quote</h2>
                     </div>
-                    <form action="{{ route('quote.submit') }}" method="POST" class="contact-form" id="quoteForm1">
+                    <form action="{{ route('quote.submit') }}" method="POST" class="contact-form" id="quoteForm">
                         @csrf
                         <input type="hidden" name="first" value="first" />
                         @session('success')
@@ -553,6 +553,19 @@
                                 <small class="text-danger">{{ $errors->first('service') }}</small>
                                 @enderror
                             </div>
+                            <div class="form-group col-md-6">
+                                <input type="date" class="form-control bg-gray" name="start_date" id="start_date" value="{{ old('start_date') }}">
+                                @error('start_date')
+                                <small class="text-danger">{{ $errors->first('start_date') }}</small>
+                                @enderror
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control bg-gray" name="address" id="address" value="{{ old('address') }}" placeholder="Address">
+                                <i class="fal fa-map"></i>
+                                @error('address')
+                                <small class="text-danger">{{ $errors->first('address') }}</small>
+                                @enderror
+                            </div>
                             <div class="form-group col-12">
                                 <textarea name="message" id="message" cols="30" rows="3" class="form-control bg-gray" placeholder="Your Message">{{ old('message') }}</textarea>
                                 <i class="fal fa-comment"></i>
@@ -561,7 +574,10 @@
                                 @enderror
                             </div>
                             <div class="form-btn text-center col-12">
-                                <button type="submit" class="th-btn btn-submit">Send<i class="fa-regular fa-arrow-right ms-2"></i></button>
+                                <button type="submit" class="th-btn btn-submit g-recaptcha"
+                                    data-sitekey="6Ld3mkwqAAAAABzSHvDVOfa30aHM48tWnyYREdYO"
+                                    data-callback='onSubmit'
+                                    data-action='submit'>Send<i class="fa-regular fa-arrow-right ms-2"></i></button>
                             </div>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
@@ -628,106 +644,7 @@
         </svg>
     </div>
 
-    <div class="modal fade" tabindex="-1" id="myModal" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Request a Quote</h5>
-                    <button type="button" class="btn-close text-info" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="{{ route('quote.submit') }}" method="POST" class="contact-form" id="quoteForm1">
-                        @csrf
-                        <input type="hidden" name="first" value="first" />
-                        @session('success')
-                        <div class="contact-form-success alert alert-success mt-4">
-                            {{ session('success') }}
-                        </div>
-                        @endsession
-                        @session('error')
-                        <div class="contact-form-error alert alert-danger mt-4">
-                            {{ session('error') }}
-                        </div>
-                        @endsession
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control bg-gray" name="firstname" id="firstname" value="{{ old('firstname') }}" placeholder="First Name">
-                                <i class="fal fa-user"></i>
-                                @error('firstname')
-                                <small class="text-danger">{{ $errors->first('firstname') }}</small>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control bg-gray" name="lastname" id="lastname" value="{{ old('lastname') }}" placeholder="Last Name">
-                                <i class="fal fa-user"></i>
-                                @error('lastname')
-                                <small class="text-danger">{{ $errors->first('lastname') }}</small>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="tel" class="form-control bg-gray" name="number" id="number" value="{{ old('number') }}" placeholder="Phone Number">
-                                <i class="fal fa-phone"></i>
-                                @error('number')
-                                <small class="text-danger">{{ $errors->first('number') }}</small>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control bg-gray" name="email" id="email" value="{{ old('email') }}" placeholder="Email">
-                                <i class="fal fa-envelope"></i>
-                                @error('email')
-                                <small class="text-danger">{{ $errors->first('email') }}</small>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                <select class="form-control bg-gray" name="service" id="service">
-                                    <option value="">Select Service</option>
-                                    <option value="pack-and-move">Packers & Movers</option>
-                                    <option value="household-storage">Household Storage</option>
-                                    <option value="box-storage">Box Storage</option>
-                                    <option value="office-storage">Office Storage</option>
-                                    <option value="other">Other</option>
-                                </select>
-                                <i class="fal fa-arrow-down"></i>
-                                @error('service')
-                                <small class="text-danger">{{ $errors->first('service') }}</small>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                <select class="form-control bg-gray" name="location" id="location">
-                                    <option value="">Select Location</option>
-                                    <option value="Dubai">Dubai</option>
-                                    <!--<option value="Sharjah">Sharjah</option>
-                                        <option value="Abu Dhabi">Abu Dhabi</option>
-                                        <option value="Ajman">Ajman</option>
-                                        <option value="Fujairah">Fujairah</option>
-                                        <option value="Ras Al Khaimah">Ras Al Khaimah</option>
-                                        <option value="Umm Al Quwain">Umm Al Quwain</option>-->
-                                </select>
-                                <i class="fal fa-arrow-down"></i>
-                                @error('service')
-                                <small class="text-danger">{{ $errors->first('service') }}</small>
-                                @enderror
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="message" cols="30" rows="3" class="form-control bg-gray" placeholder="Your Message">{{ old('message') }}</textarea>
-                                <i class="fal fa-comment"></i>
-                                @error('message')
-                                <small class="text-danger">{{ $errors->first('message') }}</small>
-                                @enderror
-                            </div>
-                            <div class="form-btn text-center col-12">
-                                <button type="submit" class="th-btn btn-submit">Send<i class="fa-regular fa-arrow-right ms-2"></i></button>
-                            </div>
-                        </div>
-                        <p class="form-messages mb-0 mt-3"></p>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include("web.modal")
 
     <!--==============================
     All Js File
@@ -780,6 +697,46 @@
                 $("#myModal").modal("show");
             });
         });
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SelfStorage",
+            "name": "Move In Store",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "31 Street 5B, Al Quoz",
+                "addressLocality": "Dubai",
+                "addressRegion": "AE",
+                "postalCode": "00000"
+            },
+            "image": "https://www.moveinstore.com/public/web/assets/img/logo-small.webp",
+            "email": "info@moveinstore.com",
+            "telePhone": "+971 54 888 2525",
+            "faxNumber": "+971 54 888 2525",
+            "url": "https://www.moveinstore.com/",
+            "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "09:00",
+                "closes": "18:00"
+            }],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "25.14815739002354",
+                "longitude": "55.2377825423283"
+            },
+            "priceRange": "$$$"
+
+        }
     </script>
 
 </body>

@@ -55,11 +55,7 @@
                             </ul>
                         </nav>
                         <div class="header-button">
-                            @if(request()->routeIs('landing'))
-                            <a href="#" class="th-btn shadow-none d-inline-block d-lg-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
-                            @else
-                            <a href="{{ route('contact') }}" class="th-btn shadow-none d-inline-block d-lg-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
-                            @endif
+                            <a href="javascript:void(0)" class="th-btn shadow-none d-inline-block d-lg-none myModal">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
                             <!--<button type="button" class="d-inline-block d-lg-none"><i class="far fa-bars"></i></button>-->
                         </div>
                     </div>
@@ -70,11 +66,7 @@
                                 <i class="far fa-shopping-cart"></i>
                                 <span class="badge">5</span>
                             </button>-->
-                            @if(request()->routeIs('landing'))
                             <a href="javascript:void(0)" class="th-btn shadow-none myModal">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
-                            @else
-                            <a href="{{ route('contact') }}" class="th-btn shadow-none">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
-                            @endif
                         </div>
                     </div>
                 </div>

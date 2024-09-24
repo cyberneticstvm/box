@@ -1,78 +1,12 @@
-@extends("web.base")
-@section("webcontent")
-<!--==============================
-    Breadcumb
-============================== -->
-<div class="breadcumb-wrapper " data-bg-src="{{ asset('/web/assets/img/bg/service_bg_2.webp') }}">
-    <div class="container">
-        <div class="breadcumb-content">
-            <h1 class="breadcumb-title">Contact Us</h1>
-            <ul class="breadcumb-menu">
-                <li><a href="{{ route('index') }}">Home</a></li>
-                <li>Contact Us</li>
-            </ul>
-        </div>
-    </div>
-</div><!--==============================
-    Project Area
-==============================-->
-<div class="space">
-    <div class="container">
-        <div class="row gy-4">
-            <div class="col-xl-4 col-md-6">
-                <div class="contact-info">
-                    <div class="contact-info_icon">
-                        <i class="fas fa-location-dot"></i>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="box-title">Our Office Address</h4>
-                        <span class="contact-info_text"><a href="https://maps.app.goo.gl/yvUWXEt9ZNnJZxWV8?g_st=aw" target="_blank">31 Street 5B, Al Quoz, Dubai, UAE</a></span>
-                    </div>
-                </div>
+<div class="modal fade" tabindex="-1" id="myModal" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Request a Quote</h5>
+                <button type="button" class="btn-close text-info" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="contact-info">
-                    <div class="contact-info_icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="box-title">Call Us Anytime</h4>
-                        <span class="contact-info_text">
-                            <a href="tel:+971548882525">+971 54 888 2525</a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-md-6">
-                <div class="contact-info">
-                    <div class="contact-info_icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="box-title">Send An Email</h4>
-                        <span class="contact-info_text">
-                            <a href="mailto:info@moveinstore.com">info@moveinstore.com</a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="bg-smoke space" data-bg-src="{{ asset('/web/assets/img/bg/contact_bg_1.webp') }}" id="contact-sec">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8">
-                <div class="title-area mb-35 text-xl-start text-center">
-                    <span class="sub-title">
-                        <div class="icon-masking me-2">
-                            <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}"></span>
-                            <img src="{{ asset('/web/assets/img/theme-img/title_shape_2.svg') }}" alt="shape">
-                        </div>contact with us!
-                    </span>
-                    <h2 class="sec-title">Have Any Questions?</h2>
-                </div>
-                <form action="{{ route('quote.submit') }}" method="POST" class="contact-form bg-white p-3" id="quoteForm">
+            <div class="modal-body">
+                <form action="{{ route('quote.submit') }}" method="POST" class="contact-form" id="quoteForm1">
                     @csrf
                     <input type="hidden" name="first" value="first" />
                     @session('success')
@@ -144,19 +78,7 @@
                             <small class="text-danger">{{ $errors->first('service') }}</small>
                             @enderror
                         </div>
-                        <div class="form-group col-md-6">
-                            <input type="date" class="form-control bg-gray" name="start_date" id="start_date" value="{{ old('start_date') }}">
-                            @error('start_date')
-                            <small class="text-danger">{{ $errors->first('start_date') }}</small>
-                            @enderror
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control bg-gray" name="address" id="address" value="{{ old('address') }}" placeholder="Address">
-                            <i class="fal fa-map"></i>
-                            @error('address')
-                            <small class="text-danger">{{ $errors->first('address') }}</small>
-                            @enderror
-                        </div>
+
                         <div class="form-group col-12">
                             <textarea name="message" id="message" cols="30" rows="3" class="form-control bg-gray" placeholder="Your Message">{{ old('message') }}</textarea>
                             <i class="fal fa-comment"></i>
@@ -165,16 +87,15 @@
                             @enderror
                         </div>
                         <div class="form-btn text-center col-12">
-                            <button type="submit" class="th-btn btn-submit g-recaptcha"
-                                data-sitekey="6Ld3mkwqAAAAABzSHvDVOfa30aHM48tWnyYREdYO"
-                                data-callback='onSubmit'
-                                data-action='submit'>Send<i class="fa-regular fa-arrow-right ms-2"></i></button>
+                            <button type="submit" class="th-btn btn-submit">Send<i class="fa-regular fa-arrow-right ms-2"></i></button>
                         </div>
                     </div>
                     <p class="form-messages mb-0 mt-3"></p>
                 </form>
             </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
         </div>
     </div>
 </div>
-@endsection("webcontent")

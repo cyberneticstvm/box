@@ -22,9 +22,9 @@
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Move In Store - Best Storage in Dubai</title>
-    <meta name="author" content="Themeholy">
-    <meta name="description" content="Move In Store - Box Storage">
+    <title>{{ $title }}</title>
+    <meta name="author" content="Cybernetics">
+    <meta name="description" content="{{ $desc }}">
     <meta name="keywords" content="Move In Store - Box Storage">
     <meta name="robots" content="INDEX,FOLLOW">
 
@@ -231,6 +231,9 @@
     <!--********************************
 			Code End  Here 
 	******************************** -->
+
+    @include("web.modal")
+
     <!--Whatsapp-->
     <div class="floating">
         <a href="https://api.whatsapp.com/send?phone=971548882525&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank"><img src="{{ asset('/web/assets/img/icon/whatsapp.svg') }}" alt="Move N Store Whatsapp" /></a>
@@ -281,6 +284,62 @@
     <!-- Main Js File -->
     <script src="{{ asset('/web/assets/js/main.js') }}"></script>
     <script src="{{ asset('/web/assets/js/script.js') }}"></script>
+
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Ld3mkwqAAAAABzSHvDVOfa30aHM48tWnyYREdYO"></script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SelfStorage",
+            "name": "Move In Store",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "31 Street 5B, Al Quoz",
+                "addressLocality": "Dubai",
+                "addressRegion": "AE",
+                "postalCode": "00000"
+            },
+            "image": "https://www.moveinstore.com/public/web/assets/img/logo-small.webp",
+            "email": "info@moveinstore.com",
+            "telePhone": "+971 54 888 2525",
+            "faxNumber": "+971 54 888 2525",
+            "url": "https://www.moveinstore.com/",
+            "openingHours": "Mo,Tu,We,Th,Fr 09:00-18:00",
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "09:00",
+                "closes": "18:00"
+            }],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "25.14815739002354",
+                "longitude": "55.2377825423283"
+            },
+            "priceRange": "$$$"
+
+        }
+    </script>
+
+    <script>
+        function onSubmit(token) {
+            document.getElementById("quoteForm").submit();
+            $(".btn-submit").html("Loading...<span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>");
+            $(".btn-submit").attr("disabled", true);
+        }
+
+        $(function() {
+            $(".myModal").click(function() {
+                $("#myModal").modal("show");
+            });
+        });
+    </script>
 
 </body>
 

@@ -50,7 +50,7 @@
             </div>
             <div class="col-xxl-4 col-lg-4">
                 <aside class="sidebar-area">
-                    <div class="widget widget_nav_menu  ">
+                    <div class="widget widget_nav_menu">
                         <h3 class="widget_title">All Services</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
@@ -68,12 +68,8 @@
                             <a href="service-details.html" class="th-btn style5"><i class="fa-light fa-file-lines me-2"></i>DOWNLOAD DOC</a>
                         </div>
                     </div>-->
-                    <div class="widget widget_banner  " data-bg-src="{{ asset('/web/assets/img/service/service2.png') }}">
-                        <div class="widget-banner">
-                            <span class="text">CONTACT US NOW</span>
-                            <h2 class="title">You Need Help?</h2>
-                            <a href="{{ route('contact') }}" class="th-btn style3">GET A QUOTE<i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
+                    <div class="">
+                        @include("web.contact-form")
                     </div>
                 </aside>
             </div>
