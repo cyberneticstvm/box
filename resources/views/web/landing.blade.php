@@ -233,7 +233,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-btn text-center col-12">
-                                    <button type="submit">Send<i class="fa-regular fa-arrow-right ms-2"></i></button>
+                                    <button type="submit" class="th-btn btn-submit">Send<i class="fa-regular fa-arrow-right ms-2"></i></button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
