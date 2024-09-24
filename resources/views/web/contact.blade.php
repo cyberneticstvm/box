@@ -178,6 +178,6 @@
     </div>
 </div>
 <div class="map-sec">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.0332846332753!2d55.272499999999994!3d25.2021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f428722e94bf5%3A0x39a9e309e1d3f1cf!2sRegus%20-%20Dubai%2C%20Downtown!5e0!3m2!1sen!2sin!4v1727171250500!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3610.029933989936!2d55.27261799999999!3d25.202213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDEyJzA4LjAiTiA1NcKwMTYnMjEuNCJF!5e0!3m2!1sen!2sin!4v1727171410969!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
 </div>
 @endsection("webcontent")
