@@ -105,7 +105,6 @@ class WebController extends Controller
             'number' => 'required',
             'service' => 'required',
             'location' => 'required',
-            'message' => 'required',
             //'g-recaptcha-response' => ['required', new ReCaptcha]
         ]);
         try {

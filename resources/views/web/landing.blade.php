@@ -151,7 +151,7 @@
                     </div>
                     <div class="col-xl-6 bg-white p-3">
                         <div class="">
-                            <h2 class="text-center">GET QUOTE</h2>
+                            <h2 class="text-center">Request a Quote</h2>
                         </div>
                         <form action="{{ route('quote.submit') }}" method="POST" class="contact-form" id="quoteForm1">
                             @csrf
@@ -213,12 +213,12 @@
                                     <select class="form-control bg-gray" name="location" id="location">
                                         <option value="">Select Location</option>
                                         <option value="Dubai">Dubai</option>
-                                        <option value="Sharjah">Sharjah</option>
+                                        <!--<option value="Sharjah">Sharjah</option>
                                         <option value="Abu Dhabi">Abu Dhabi</option>
                                         <option value="Ajman">Ajman</option>
                                         <option value="Fujairah">Fujairah</option>
                                         <option value="Ras Al Khaimah">Ras Al Khaimah</option>
-                                        <option value="Umm Al Quwain">Umm Al Quwain</option>
+                                        <option value="Umm Al Quwain">Umm Al Quwain</option>-->
                                     </select>
                                     <i class="fal fa-arrow-down"></i>
                                     @error('service')
@@ -233,7 +233,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-btn text-center col-12">
-                                    <button type="submit" class="th-btn btn-submit g-recaptcha" data-sitekey="6Ld3mkwqAAAAABzSHvDVOfa30aHM48tWnyYREdYO" data-callback='onSubmit' data-action='submit'>Get Quote<i class="fa-regular fa-arrow-right ms-2"></i></button>
+                                    <button type="submit" class="th-btn btn-submit g-recaptcha btn-block" data-sitekey="6Ld3mkwqAAAAABzSHvDVOfa30aHM48tWnyYREdYO" data-callback='onSubmit' data-action='submit'>Send<i class="fa-regular fa-arrow-right ms-2"></i></button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
@@ -541,12 +541,12 @@
                                 <select class="form-control bg-gray" name="location" id="location">
                                     <option value="">Select Location</option>
                                     <option value="Dubai">Dubai</option>
-                                    <option value="Sharjah">Sharjah</option>
+                                    <!--<option value="Sharjah">Sharjah</option>
                                     <option value="Abu Dhabi">Abu Dhabi</option>
                                     <option value="Ajman">Ajman</option>
                                     <option value="Fujairah">Fujairah</option>
                                     <option value="Ras Al Khaimah">Ras Al Khaimah</option>
-                                    <option value="Umm Al Quwain">Umm Al Quwain</option>
+                                    <option value="Umm Al Quwain">Umm Al Quwain</option>-->
                                 </select>
                                 <i class="fal fa-arrow-down"></i>
                                 @error('service')
@@ -635,7 +635,7 @@
         <a href="https://api.whatsapp.com/send?phone=971548882525&text=Hello!%20I%20am%20interested%20in%20your%20service" target="_blank"><img src="{{ asset('/web/assets/img/icon/whatsapp.svg') }}" alt="Move N Store Whatsapp" /></a>
     </div>
     <div class="floating1">
-        <a href="tel:+971548882525" target="_blank"><img src="{{ asset('/web/assets/img/icon/call-us.svg') }}" alt="Move N Store Call" /></a>
+        <a href="tel:+971548882525" target="_blank"><img src="{{ asset('/web/assets/img/icon/call.svg') }}" alt="Move N Store Call" /></a>
     </div>
     <!-- Scroll To Top -->
     <div class="scroll-top">
