@@ -15,5 +15,5 @@ $(function () {
         $(this).find(".btn-submit").attr("disabled", true);
     });
 
-    $('#onload').modal('show');
+    //$('#onload').modal('show');
 })
