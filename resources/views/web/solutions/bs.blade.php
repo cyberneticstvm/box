@@ -25,60 +25,10 @@
                         <img src="{{ asset('/web/assets/img/service/1.png') }}" alt="Service Image">
                     </div>
                     <div class="page-content">
-                        <h2 class="h3 page-title">Box Storage: Simplified and Convenient</h2>
+                        <h2 class="h3 page-title text-theme">Top Rated Box Storage Solutions in Dubai</h2>
 
-                        <p>Box storage offers a streamlined approach to storing your belongings. The process begins with the box storage company delivering storage boxes and bubble wrap to your doorstep. After you pack your items securely, they will pick up the boxes the following day and transport them to a secure storage facility.</p>
-                        <p class="mb-30">When you need your items returned, simply contact the company, and they will deliver your boxes back to you the next day. Charges are applied per box for both collection and return, ensuring a clear and manageable pricing structure.</p>
-
-                        <div class="row">
-                            <div class="col-md-6 mb-30">
-                                <div class="th-video">
-                                    <img class="w-100" src="{{ asset('/web/assets/img/service/box.png') }}" alt="service">
-                                    <!--<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>-->
-                                </div>
-                            </div>
-                        </div>
-
-                        <h3 class="h4 mt-35 mb-4">Why Choose Box Storage?</h3>
-                        <div class="accordion-area accordion" id="faqAccordion">
-
-
-                            <div class="accordion-card style2 active">
-                                <div class="accordion-header" id="collapse-item-1">
-                                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Convenience</button>
-                                </div>
-                                <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="faq-text">Box storage services bring the convenience of packing and storage directly to your door. You don’t need to transport your items to a storage facility; instead, the company handles the entire process. You can request the return of your boxes at a later date, and they will be delivered to your chosen location. This is ideal if you’re storing items that you don’t need immediate access to. Note that while in storage, you won't be able to access your belongings. Additionally, deliveries cannot be made directly to their storage facility, so all items must be collected and returned through the service.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion-card style2 ">
-                                <div class="accordion-header" id="collapse-item-2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Cost-Effectiveness</button>
-                                </div>
-                                <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="faq-text">Paying a fixed price per box for both storage and return makes box storage an economical choice, especially for small quantities of items or those needing less than 10 sq ft of space. This model ensures you’re not paying for unused space, and insurance is typically included. The entire service can be managed online, providing a hassle-free experience.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion-card style2 ">
-                                <div class="accordion-header" id="collapse-item-3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Considerations</button>
-                                </div>
-                                <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="faq-text">While box storage offers many benefits, it's important to note a few drawbacks. You won't have direct access to your items or the ability to inspect the security measures at the storage facility. Although most facilities have 24-hour recorded CCTV, they are not usually staffed. For those who value seeing security systems in action, or prefer having direct access to their belongings, alternative storage solutions might be preferable. Additionally, direct deliveries to the warehouse are not allowed, so all items must be arranged through the box storage company.</p>
-                                        <p class="faq-text mt-3">Choose box storage for a cost-effective, convenient solution to your storage needs, with the assurance of included insurance and a straightforward online management system.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <p>Are you relocating and in search of dependable <strong>box storage solutions in Dubai</strong>? Then stop searching right here—Trust MoveinStore to handle it. We are your reliable partner for moving and the ultimate solution for all your storage needs. We understand the challenges of moving from one location to another, so we strive diligently to deliver a convenient, secure, and cost-effective solution.</p>
+                        <p class="">We’re here to link you with <strong>box storage services in Dubai</strong> customized just for you. Whether you’re looking to store personal items, seasonal goods, or extra office supplies, our services guarantee secure storage, providing you with total peace of mind. <a href="{{ route('contact') }}">Call us today</a> <strong>to get secure box storage in Dubai</strong>!</p>
                     </div>
                 </div>
             </div>
@@ -106,6 +56,45 @@
                         @include("web.contact-form")
                     </div>
                 </aside>
+            </div>
+            <div class="col-lg-12">
+                <h3 class="h4 text-theme">Why Invest in Our Box Storage Solutions?</h3>
+                <p class="mb-4"><strong>Self-storage units</strong> are perfect for those who require frequent access to their belongings, offering the <strong>best storage solutions in Dubai</strong>. With years of experience, we have built a strong reputation for delivering exceptional service. Storage is a significant investment, so we provide affordable solutions without compromising security or convenience.</p>
+
+                <h3 class="h4 text-theme">What We Offer</h3>
+                <div class="checklist style3">
+                    <p>Our secure <strong>storage facilities in Dubai</strong> have state-of-the-art security systems to protect your belongings. Whether you need <strong>furniture storage in Dubai</strong> or a solution for other personal items, we provide flexible options to suit your requirements. We offer various <strong>storage services in Dubai</strong> to accommodate both short-term and long-term needs. Our solutions include:</p>
+                    <ul>
+                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>Ideal Box Storage</strong></li>
+                        <p>We offer the best <a href="https://en.wikipedia.org/wiki/Self_storage" target="_blank">Self-Storage</a> in Dubai, ensuring your items are protected and easily accessible.</p>
+
+                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>Furniture Storage</strong></li>
+                        <p>Keep your furniture safe with us, knowing it will be preserved in pristine condition within our climate-controlled units.</p>
+
+                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>Budget-Friendly Box Storage</strong></li>
+                        <p>Our commitment is to deliver <strong>cheap storage in Dubai</strong> while maintaining high-quality standards.</p>
+
+                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>Self-Storage Units</strong></li>
+                        <p>Our <strong>self-storage units</strong> are perfect for those who require convenient access to their belongings anytime.</p>
+                    </ul>
+                </div>
+                <h3 class="h4 text-theme">Store Smart, Live Easy – Box Storage Done Right</h3>
+                <p class="">Do you need <strong>cheap storage in Dubai</strong>? Allow us to assist you with that. <strong>Move in Store</strong> is the ultimate answer to all your moving challenges. We are the <a href="https://www.linkedin.com/company/move-n-store-llc" target="_blank">best storage company in Dubai</a>. Our team is equipped to manage every kind of move, whether large or small, local or international, and even long-distance. Trust us to take care of your relocation needs. Whether you are looking for a comprehensive moving service to handle every aspect of your relocation or a reliable <strong>box storage solution</strong>, we are here to meet your needs.</p>
+                <p>Experience the convenience of our intelligent <strong>box storage services</strong>, designed to simplify the organization and storage of your items. Pack your items in <strong>storage boxes</strong>, and let us handle everything else. Experience the ultimate convenience with our efficient pickup and delivery services, designed to make your storage experience hassle-free. <strong>Need Extra Space? Store with the Best in Dubai</strong>!</p>
+
+                <h3 class="h4 text-theme">What Sets Us Apart</h3>
+                <p>MoveinStore is committed to providing exceptional services rather than merely aiming to survive mediocrity. Discover unparalleled <a href="{{ route('index') }}">storage solutions in Dubai</a> tailored to meet your unique needs, preferences, and budgetary considerations. Here are some of the qualities that set us apart from our </p>
+                <div class="text-dark">
+                    <ul>
+                        <li><strong>Security:</strong> Your belongings are safe with round-the-clock surveillance and advanced security systems.</li>
+                        <li><strong>Convenience:</strong> Thanks to our efficient pickup and delivery service, you can access your stored items whenever you need them.</li>
+                        <li><strong>Affordability:</strong> Our storage solutions are designed to meet your budget without compromising on the quality of service.</li>
+                        <li><strong>Flexibility:</strong> Whether you need to store a few boxes or an entire household, we offer solutions that cater to all storage sizes and durations.</li>
+                        <li><strong>Professionalism:</strong> Our team is highly trained to handle all items, ensuring they are correctly packed, transported, and stored.</li>
+                    </ul>
+                </div>
+                <h3 class="h4 text-theme">Call Us Now!</h3>
+                <p>Our box storage solutions offer competitive pricing, ensuring you receive the best value for your investment. <strong>Protect Your Belongings</strong>—<a href="{{ route('contact') }}">Schedule Your Pick up Now</a>!</p>
             </div>
         </div>
     </div>
