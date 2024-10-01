@@ -28,26 +28,6 @@
                         <h2 class="h3 page-title text-theme">Top Rated Movers and Packers Services in Dubai</h2>
                         <p>Do you want to find the best movers and Packers in Dubai to handle your next move? Look no further than the moving store, where we offer exceptional services in Dubai. Whether you’re relocating your Home Office or any other property, our expert full-service mover is equipped to make your move seamless and stressful. </p>
                         <p class="mb-30">Our skilled team of movers and packers in Dubai offers outstanding packing and moving services to assist you in setting up your new space. We ensure meticulous care and attention to detail, providing remarkable solutions for Dubai's residential and office moving services. Our moving solutions are customized to fit your unique requirements perfectly. Join Hundreds of Happy Customers—<a href="{{ route('contact') }}">Book Your Move Today!</a></p>
-
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h3 class="h4 text-theme">Explore our Complete Range Of Mover and Packer Services</h3>
-                                <div class="checklist style3">
-                                    <p>From packing to transporting to storing, we offer a comprehensive suite of services:</p>
-                                    <ul>
-                                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>House Shifting Services in Dubai</strong></li>
-                                        <p>When moving into a new home, let our <strong>house movers and Packers in Dubai</strong> assist you with packing, transporting, and setting up your new space.</p>
-
-                                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>Office movers and Packers of Dubai</strong></li>
-                                        <p>Relocating your business? Our <strong>office movers in Dubai</strong> specialize in handling corporate relocations, ensuring minimal downtime for your business.</p>
-
-                                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>Professional Packing and Moving Services</strong></li>
-                                        <p>With <strong>professional movers in Dubai</strong> trained in modern moving techniques, you can trust us to handle all types of items, no matter how fragile or large.</p>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -77,8 +57,23 @@
                 </aside>
             </div>
             <div class="col-lg-12">
+                <h3 class="h4 text-theme">Explore our Complete Range Of Mover and Packer Services</h3>
+                <div class="checklist style3">
+                    <p>From packing to transporting to storing, we offer a comprehensive suite of services:</p>
+                    <ul>
+                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>House Shifting Services in Dubai</strong></li>
+                        <p>When moving into a new home, let our <strong>house movers and Packers in Dubai</strong> assist you with packing, transporting, and setting up your new space.</p>
+
+                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>Office movers and Packers of Dubai</strong></li>
+                        <p>Relocating your business? Our <strong>office movers in Dubai</strong> specialize in handling corporate relocations, ensuring minimal downtime for your business.</p>
+
+                        <li class="text-theme"><i class="fas fa-octagon-check pe-2"></i><strong>Professional Packing and Moving Services</strong></li>
+                        <p>With <strong>professional movers in Dubai</strong> trained in modern moving techniques, you can trust us to handle all types of items, no matter how fragile or large.</p>
+
+                    </ul>
+                </div>
                 <h3 class="h4 text-theme">Trust MoveinStore with Your Moves</h3>
-                <p class="mb-4">We have become a trusted name in the moving industry by consistently delivering on all promises. We are proud to say that we are among the <a href="https://www.linkedin.com/company/move-n-store-llc" target="_blank">best movers and Packers in Dubai</a>, thanks to our commitment to quality services, attention to detail, and customer satisfaction. </p>
+                <p class="">We have become a trusted name in the moving industry by consistently delivering on all promises. We are proud to say that we are among the <a href="https://www.linkedin.com/company/move-n-store-llc" target="_blank">best movers and Packers in Dubai</a>, thanks to our commitment to quality services, attention to detail, and customer satisfaction. </p>
                 <p>Our expert team is trained to handle all kinds of furniture carefully, ensuring they arrive in perfect condition at the right time. We know the city like the back of our hand coma, so you can trust us to navigate your belongings from the best routes and make your move as smooth and hassle-free as possible.</p>
 
                 <h3 class="h4 text-theme">Benefits of Hiring Professional Movers</h3>
