@@ -12,10 +12,10 @@ Route::middleware(['web'])->group(function () {
         Route::post('/get-a-quote', 'submitQuote')->name('quote.submit');
         Route::get('/thank-you', 'thankyou')->name('thankyou');
         Route::get('/about-us', 'about')->name('about');
-        Route::get('/services/packers-and-movers', 'pandm')->name('pandm');
-        Route::get('/services/house-hold-storage', 'hhs')->name('services.hhs');
-        Route::get('/services/box-storage', 'bs')->name('services.bs');
-        Route::get('/services/office-storage', 'os')->name('services.os');
+        Route::get('/services/packers-and-movers-in-dubai', 'pandm')->name('pandm');
+        Route::get('/services/house-hold-storage-in-dubai', 'hhs')->name('services.hhs');
+        Route::get('/services/box-storage-in-dubai', 'bs')->name('services.bs');
+        Route::get('/services/office-storage-in-dubai', 'os')->name('services.os');
         Route::get('/contact-us', 'contact')->name('contact');
         Route::get('/why-choose-us', 'wcu')->name('wcu');
         Route::get('/privacy-policy', 'privacy')->name('privacy.policy');
