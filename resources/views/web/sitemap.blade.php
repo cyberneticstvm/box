@@ -12,22 +12,22 @@
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://moveinstore.com/services/packers-and-movers</loc>
+        <loc>https://moveinstore.com/services/packers-and-movers-in-dubai</loc>
         <lastmod>2024-09-18T02:30:47+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://moveinstore.com/services/house-hold-storage</loc>
+        <loc>https://moveinstore.com/services/house-hold-storage-in-dubai</loc>
         <lastmod>2024-09-18T02:30:47+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://moveinstore.com/services/box-storage</loc>
+        <loc>https://moveinstore.com/services/box-storage-in-dubai</loc>
         <lastmod>2024-09-18T02:30:47+00:00</lastmod>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://moveinstore.com/services/office-storage</loc>
+        <loc>https://moveinstore.com/services/office-storage-in-dubai</loc>
         <lastmod>2024-09-18T02:30:47+00:00</lastmod>
         <priority>0.80</priority>
     </url>
