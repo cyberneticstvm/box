@@ -381,7 +381,7 @@ h6, .blog-content.h6, .blog-content h6 {
 
 /* Small devices */
 @media (max-width: 767px) {
-  .h1,
+  /*.h1,
   h1 {
     font-size: 40px;
   }
@@ -405,12 +405,12 @@ h6, .blog-content.h6, .blog-content h6 {
   .h6,
   h6 {
     font-size: 16px;
-  }
+  }*/
 }
 
 /* Extra small devices */
 @media (max-width: 575px) {
-  .h1,
+  /*.h1,
   h1 {
     font-size: 34px;
     line-height: 1.35;
@@ -418,15 +418,15 @@ h6, .blog-content.h6, .blog-content h6 {
   .h2,
   h2 {
     font-size: 28px;
-  }
+  }*/
 }
 
 /* Extra small devices */
 @media (max-width: 375px) {
-  .h1,
+  /*.h1,
   h1 {
     font-size: 32px;
-  }
+  }*/
 }
 
 /*------------------- 1.6. Extend -------------------*/
