@@ -13,10 +13,6 @@ Route::middleware(['web'])->group(function () {
         Route::get('/thank-you', 'thankyou')->name('thankyou');
         Route::get('/about-us', 'about')->name('about');
 
-        Route::get('/services/packers-and-movers', 'pandm')->name('pandm');
-        Route::get('/services/house-hold-storage', 'hhs')->name('services.hhs');
-        Route::get('/services/box-storage', 'bs')->name('services.bs');
-        Route::get('/services/office-storage', 'os')->name('services.os');
         Route::get('/services/packers-and-movers-in-dubai', 'pandm')->name('pandm');
         Route::get('/services/house-hold-storage-in-dubai', 'hhs')->name('services.hhs');
         Route::get('/services/box-storage-in-dubai', 'bs')->name('services.bs');
@@ -34,6 +30,18 @@ Route::middleware(['web'])->group(function () {
 
         Route::get('/blog/category/{category}', 'blogByCategory')->name('blog.by.category');
     });
+});
+Route::get('/services/packers-and-movers', function () {
+    return redirect()->route('pandm');
+});
+Route::get('/services/house-hold-storage', function () {
+    return redirect()->route('services.hhs');
+});
+Route::get('/services/box-storage', function () {
+    return redirect()->route('services.bs');
+});
+Route::get('/services/office-storage', function () {
+    return redirect()->route('services.os');
 });
 Route::middleware(['web', 'auth'])->group(function () {
     Route::controller(UserController::class)->group(function () {
