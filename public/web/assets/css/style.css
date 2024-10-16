@@ -39436,6 +39436,6 @@ span.select2-selection.select2-selection--single:focus {
   background-color: #e3e7f0 !important;
 }
 
-.blog-content a{
+.blog-content a span{
   color: var(--theme-color) !important;
 }
