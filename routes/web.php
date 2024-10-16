@@ -43,6 +43,12 @@ Route::get('/services/box-storage', function () {
 Route::get('/services/office-storage', function () {
     return redirect()->route('services.os');
 });
+Route::get('/services/cart.html', function () {
+    return redirect()->route('index');
+});
+Route::get('/services/checkout.html', function () {
+    return redirect()->route('index');
+});
 Route::middleware(['web', 'auth'])->group(function () {
     Route::controller(UserController::class)->group(function () {
         Route::get('/user', 'index')->name('user');
