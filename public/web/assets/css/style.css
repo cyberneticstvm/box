@@ -39439,3 +39439,7 @@ span.select2-selection.select2-selection--single:focus {
 .blog-content a span{
   color: var(--theme-color) !important;
 }
+
+.blog-content p{
+  color: #000 !important;
+}
