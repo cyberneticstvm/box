@@ -17,9 +17,9 @@
         <div class="row">
             <div class="col-xxl-12 col-lg-12">
                 <div class="th-blog blog-single">
-                    <div class="blog-img">
+                    <!--<div class="blog-img">
                         <img src="{{ asset($blog->featured_image) }}" alt="Blog Image">
-                    </div>
+                    </div>-->
                     <div class="blog-content">
                         <div class="blog-meta">
                             <a class="author" href="#"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Move N Store</a>
@@ -31,12 +31,12 @@
                     </div>
                     <div class="share-links clearfix ">
                         <div class="row justify-content-between">
-                            <div class="col-sm-auto">
+                            <!--<div class="col-sm-auto">
                                 <span class="share-links-title">Tags:</span>
                                 <div class="tagcloud">
                                     <a href="#">{{ $blog->hashtags }}</a>
                                 </div>
-                            </div>
+                            </div>-->
                             <div class="col-sm-auto text-xl-end">
                                 <span class="share-links-title">Share:</span>
                                 <ul class="social-links">
