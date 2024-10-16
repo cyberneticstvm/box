@@ -32,7 +32,7 @@
                         </div>
                         <div class="col-12">
                             <label>Hashtags</label>
-                            {{ html()->text($name='hashtags', $value=$blog->hashtags)->class('form-control')->placeholder('Hashtags')->required()}}
+                            {{ html()->text($name='hashtags', $value=$blog->hashtags)->class('form-control')->placeholder('Hashtags') }}
                         </div>
                         <div class="col-6 mt-3">
                             <label>Blog Category</label><br>
