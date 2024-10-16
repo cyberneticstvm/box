@@ -31,6 +31,8 @@ Route::middleware(['web'])->group(function () {
         Route::get('/blogs/{slug}', 'blogDetails')->name('blog.details');
         Route::get('/sitemap.xml', 'sitemap')->name('sitemap');
         Route::get('/robots.txt', 'robots')->name('robots');
+
+        Route::get('/blog/category/{category}', 'blogByCategory')->name('blog.by.category');
     });
 });
 Route::middleware(['web', 'auth'])->group(function () {

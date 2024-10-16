@@ -89,6 +89,14 @@ class WebController extends Controller
         return view('web.blogs', compact('blogs', 'title', 'desc'));
     }
 
+    function blogByCategory(string $category)
+    {
+        $title = "Explore Our Blogs for Moving and Storage Tips & Insights";
+        $desc = "Stay informed with our latest blogs on moving and storage in Dubai. Discover tips, expert advice, and solutions to make your relocation and storage hassle-free.";
+        $blogs = Blog::where('blog_category', $category)->where('status', 1)->latest()->get();
+        return view('web.blogs', compact('blogs', 'title', 'desc'));
+    }
+
     function blogDetails($slug)
     {
         $blog = Blog::where('slug', $slug)->first();

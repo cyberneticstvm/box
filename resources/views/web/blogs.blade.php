@@ -45,19 +45,19 @@
                         <h3 class="widget_title">Categories</h3>
                         <ul>
                             <li>
-                                <a href="#">Packing and Moving</a>
+                                <a href="{{ route('blog.by.category', 'Packing and Moving') }}">Packing and Moving</a>
                             </li>
                             <li>
-                                <a href="#">Box Storage</a>
+                                <a href="{{ route('blog.by.category', 'Box Storage') }}">Box Storage</a>
                             </li>
                             <li>
-                                <a href="#">Office Storage</a>
+                                <a href="{{ route('blog.by.category', 'Office Storage') }}">Office Storage</a>
                             </li>
                             <li>
-                                <a href="#">Household Storage</a>
+                                <a href="{{ route('blog.by.category', 'Household Storage') }}">Household Storage</a>
                             </li>
                             <li>
-                                <a href="#">General</a>
+                                <a href="{{ route('blog.by.category', 'General') }}">General</a>
                             </li>
                         </ul>
                     </div>
