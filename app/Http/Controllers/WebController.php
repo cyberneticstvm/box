@@ -91,9 +91,9 @@ class WebController extends Controller
 
     function blogDetails($slug)
     {
-        $title = $slug;
-        $desc = $slug;
         $blog = Blog::where('slug', $slug)->first();
+        $title = $blog->title;
+        $desc = $blog->description;
         return view('web.blog-details', compact('blog', 'title', 'desc'));
     }
 
