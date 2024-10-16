@@ -49,6 +49,12 @@ Route::get('/services/cart.html', function () {
 Route::get('/services/checkout.html', function () {
     return redirect()->route('index');
 });
+Route::get('/cart.html', function () {
+    return redirect()->route('index');
+});
+Route::get('/checkout.html', function () {
+    return redirect()->route('index');
+});
 Route::middleware(['web', 'auth'])->group(function () {
     Route::controller(UserController::class)->group(function () {
         Route::get('/user', 'index')->name('user');
