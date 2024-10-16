@@ -17,12 +17,12 @@
         <div class="row">
             <div class="col-xxl-12 col-lg-12">
                 <div class="th-blog blog-single">
-                    <!--<div class="blog-img">
+                    <div class="blog-img">
                         <img src="{{ asset($blog->featured_image) }}" alt="Blog Image">
-                    </div>-->
+                    </div>
                     <div class="blog-content">
                         <div class="blog-meta">
-                            <a class="author" href="#"><img src="{{ asset('/web/assets/img/blog/author-1-1.png') }}" alt="avater"> By Move N Store</a>
+                            <a class="author" href="#">By Move N Store</a>
                             <a href="#"><i class="fa-light fa-calendar-days"></i>{{ $blog->created_at->format('d, M Y') }}</a>
                             <a href="{{ route('blog.details', ['slug' => $blog->slug]) }}"><i class="fa-regular fa-comments"></i>{{ $blog->hashtags }}</a>
                         </div>
