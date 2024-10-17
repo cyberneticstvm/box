@@ -22,7 +22,7 @@
             <div class="col-xxl-8 col-lg-8">
                 <div class="page-single">
                     <div class="page-img">
-                        <img src="{{ asset('/web/assets/img/service/1.png') }}" alt="Service Image">
+                        <img src="{{ asset('/web/assets/img/service/b138a49b90.webp') }}" alt="Service Image">
                     </div>
                     <div class="page-content">
                         <h2 class="h3 page-title text-theme">Top Rated Movers and Packers Services in Dubai</h2>

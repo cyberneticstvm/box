@@ -4,7 +4,7 @@
 Hero Area
 ==============================-->
 <div class="th-hero-wrapper hero-19" id="hero" data-bg-src="{{ asset('/web/assets/img/hero/banner1.webp') }}">
-    <div class="hero19-overlay" data-bg-src="{{ asset('/web/assets/img/hero/hero_overlay_19.png') }}"></div>
+    <div class="hero19-overlay" data-bg-src="{{ asset('/web/assets/img/hero/hero_overlay_19.webp') }}"></div>
     <div class="swiper th-slider" id="heroSlide19" data-slider-options='{"effect":"fade"}'>
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -34,7 +34,7 @@ Hero Area
                             <div class="col-xl-5 mt-5">
                                 <!-- 596*659 -->
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.png') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ Hero Area
                             <div class="col-xl-5 mt-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
                                     <!--634*618-->
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.png') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ Hero Area
                             <div class="col-xl-5 mt-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
                                     <!--634*618-->
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.png') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.webp') }}" alt="">
                                 </div>
                             </div>
                         </div>

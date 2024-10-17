@@ -59,7 +59,7 @@
         </div>
     </div>
 </div>
-<div class="bg-smoke space" data-bg-src="{{ asset('/web/assets/img/bg/contact_bg_1.webp') }}" id="contact-sec">
+<div class="bg-smoke space" data-bg-src="{{ asset('/web/assets/img/bg/contact_bg_1_1.webp') }}" id="contact-sec">
     <div class="container">
         <div class="row">
             <div class="col-xl-8">
