@@ -34,7 +34,7 @@ Hero Area
                             <div class="col-xl-5 mt-5">
                                 <!-- 596*659 -->
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.webp') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_1.webp') }}" width="634" height="618" alt="Move In Store">
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ Hero Area
                             <div class="col-xl-5 mt-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
                                     <!--634*618-->
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.webp') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_2.webp') }}" width="634" height="618" alt="Move In Store">
                                 </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@ Hero Area
                             <div class="col-xl-5 mt-5">
                                 <div class="th-hero-img" data-ani="slideinup" data-ani-delay="0.10s">
                                     <!--634*618-->
-                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.webp') }}" alt="">
+                                    <img src="{{ asset('/web/assets/img/hero/hero_19_3.webp') }}" width="634" height="618" alt="Move In Store">
                                 </div>
                             </div>
                         </div>
@@ -159,7 +159,7 @@ Service Area
                                 <br /><br />
                                 <a href="{{ route('services.hhs') }}" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
-                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
+                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" width="287" height="221" alt="bg">
                                 </div>
                             </div>
                         </div>
@@ -175,7 +175,7 @@ Service Area
                                 <br />
                                 <a href="{{ route('services.bs') }}" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
-                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
+                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" width="287" height="221" alt="bg">
                                 </div>
                             </div>
                         </div>
@@ -191,7 +191,7 @@ Service Area
                                 <br />
                                 <a href="{{ route('services.os') }}" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
-                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
+                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" width="287" height="221" alt="bg">
                                 </div>
                             </div>
                         </div>
@@ -206,7 +206,7 @@ Service Area
                                 <p class="service-grid_text text-justify">professional packers, quality packing materials, and expert moving team is paramount in storage or moving process. Our team is equipped with all of those qualities with 15 years of experience.</p>
                                 <a href="{{ route('pandm') }}" class="th-btn">More Info<i class="fas fa-arrow-right ms-2"></i></a>
                                 <div class="bg-shape">
-                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" alt="bg">
+                                    <img src="{{ asset('/web/assets/img/bg/service_grid_bg.png') }}" width="287" height="221" alt="bg">
                                 </div>
                             </div>
                         </div>
@@ -297,7 +297,7 @@ About Area
                         <span class="mask-icon" data-mask-src="{{ asset('/web/assets/img/normal/about_3_1-shape.png') }}"></span>
                         <img src="{{ asset('/web/assets/img/normal/about_3_1-shape.png') }}" alt="img">
                     </div>
-                    <img src="{{ asset('/web/assets/img/normal/about_3_1.webp') }}" alt="About">
+                    <img src="{{ asset('/web/assets/img/normal/about_3_1.webp') }}" width="632" height="575" alt="About">
                     <!--<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a>-->
                 </div>
             </div>
@@ -325,7 +325,7 @@ Feature Area
         <div class="row align-items-center flex-row-reverse">
             <div class="col-xl-6 mb-30 mb-xl-0">
                 <div class="img-box5">
-                    <img class="tilt-active" src="{{ asset('/web/assets/img/normal/why_2_1.webp') }}" alt="Why">
+                    <img class="tilt-active" src="{{ asset('/web/assets/img/normal/why_2_1.webp') }}" width="619" height="564" alt="Why">
                     <div class="year-counter">
                         <h3 class="year-counter_number"><span class="counter-number">10</span>k+</h3>
                         <p class="year-counter_text">Clients Active</p>
@@ -690,7 +690,7 @@ Cta Area
             <div class="row">
                 <div class="col-lg-5">
                     <div class="cta-box_img">
-                        <img src="{{ asset('/web/assets/img/normal/customer_support.webp') }}" alt="Image">
+                        <img src="{{ asset('/web/assets/img/normal/customer_support.webp') }}" width="494" height="372" alt="Image">
                     </div>
                 </div>
                 <div class="col-lg-7">
