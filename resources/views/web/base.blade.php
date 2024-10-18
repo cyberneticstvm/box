@@ -94,16 +94,15 @@
    		Code Start From Here 
 	******************************** -->
 
-    <div class="cursor"></div>
-    <div class="cursor2"></div>
+
 
 
     <!--==============================
      Preloader
   ==============================-->
-    <div id="preloader" class="preloader ">
-        <!--<button class="th-btn th-radius preloaderCls">Cancel Preloader </button>-->
-        <div id="loader" class="th-preloader">
+    <!--<div id="preloader" class="preloader">-->
+    <!--<button class="th-btn th-radius preloaderCls">Cancel Preloader </button>-->
+    <!--<div id="loader" class="th-preloader">
             <div class="animation-preloader">
                 <div class="txt-loading">
                     <span preloader-text="M" class="characters">M</span>
@@ -129,8 +128,8 @@
                     <span preloader-text="E" class="characters">E</span>
                 </div>
             </div>
-        </div>
-    </div> <!--==============================
+        </div>-->
+    <!--</div>--> <!--==============================
     Sidemenu
 ============================== -->
     @include("web.drawer")
