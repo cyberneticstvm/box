@@ -3,7 +3,7 @@
 <!--==============================
 Hero Area
 ==============================-->
-<div class="th-hero-wrapper hero-19" id="hero" data-bg-src="{{ asset('/web/assets/img/hero/banner1.webp') }}">
+<div class="th-hero-wrapper hero-19" id="hero">
     <div class="hero19-overlay" data-bg-src="{{ asset('/web/assets/img/hero/hero_overlay_19.webp') }}"></div>
     <div class="swiper th-slider" id="heroSlide19" data-slider-options='{"effect":"fade"}'>
         <div class="swiper-wrapper">
