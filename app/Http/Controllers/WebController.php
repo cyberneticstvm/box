@@ -27,6 +27,13 @@ class WebController extends Controller
         return view('web.about', compact('title', 'desc'));
     }
 
+    function redirect301()
+    {
+        $title = "Page Removed";
+        $desc = "Page Removed";
+        return view('301', compact('title', 'desc'));
+    }
+
     function hhs()
     {
         $title = "Secure And Affordable Household Storage Services In Dubai";

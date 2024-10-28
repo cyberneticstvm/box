@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\WebController;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware(['web'])->group(function () {
@@ -12,11 +13,12 @@ Route::middleware(['web'])->group(function () {
         Route::post('/get-a-quote', 'submitQuote')->name('quote.submit');
         Route::get('/thank-you', 'thankyou')->name('thankyou');
         Route::get('/about-us', 'about')->name('about');
+        Route::get('/301', 'redirect301')->name('301');
 
-        Route::get('/services/packers-and-movers-in-dubai', 'pandm')->name('pandm');
-        Route::get('/services/house-hold-storage-in-dubai', 'hhs')->name('services.hhs');
-        Route::get('/services/box-storage-in-dubai', 'bs')->name('services.bs');
-        Route::get('/services/office-storage-in-dubai', 'os')->name('services.os');
+        Route::get('/services/packers-and-movers-dubai', 'pandm')->name('pandm');
+        Route::get('/services/house-hold-storage-dubai', 'hhs')->name('services.hhs');
+        Route::get('/services/box-storage-dubai', 'bs')->name('services.bs');
+        Route::get('/services/office-storage-dubai', 'os')->name('services.os');
 
         Route::get('/contact-us', 'contact')->name('contact');
         Route::get('/why-choose-us', 'wcu')->name('wcu');
@@ -54,6 +56,18 @@ Route::get('/cart.html', function () {
 });
 Route::get('/checkout.html', function () {
     return redirect()->route('index');
+});
+Route::get('/services/packers-and-movers-in-dubai', function () {
+    return redirect()->route('301');
+});
+Route::get('/services/house-hold-storage-in-dubai', function () {
+    return redirect()->route('301');
+});
+Route::get('/services/box-storage-in-dubai', function () {
+    return redirect()->route('301');
+});
+Route::get('/services/office-storage-in-dubai', function () {
+    return redirect()->route('301');
 });
 Route::middleware(['web', 'auth'])->group(function () {
     Route::controller(UserController::class)->group(function () {
