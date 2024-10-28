@@ -57,7 +57,7 @@
                     </div>
                 </aside>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-12 mt-5">
                 <h3 class="h4 text-theme">Explore Our Complete Range of Office Storage Services</h3>
                 <p class="">From secure storage solutions to expert assistance, we provide a comprehensive suite of services to support your business:</p>
                 <div class="checklist style3">
