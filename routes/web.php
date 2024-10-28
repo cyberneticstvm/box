@@ -15,10 +15,10 @@ Route::middleware(['web'])->group(function () {
         Route::get('/about-us', 'about')->name('about');
         Route::get('/301', 'redirect301')->name('301');
 
-        Route::get('/services/packers-and-movers-dubai', 'pandm')->name('pandm');
-        Route::get('/services/house-hold-storage-dubai', 'hhs')->name('services.hhs');
-        Route::get('/services/box-storage-dubai', 'bs')->name('services.bs');
-        Route::get('/services/office-storage-dubai', 'os')->name('services.os');
+        Route::get('/packers-and-movers-dubai', 'pandm')->name('pandm');
+        Route::get('/house-hold-storage-dubai', 'hhs')->name('services.hhs');
+        Route::get('/box-storage-dubai', 'bs')->name('services.bs');
+        Route::get('/office-storage-dubai', 'os')->name('services.os');
 
         Route::get('/contact-us', 'contact')->name('contact');
         Route::get('/why-choose-us', 'wcu')->name('wcu');
