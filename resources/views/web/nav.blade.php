@@ -56,7 +56,7 @@
                         </nav>
                         <div class="header-button">
                             <a href="javascript:void(0)" class="th-btn shadow-none d-inline-block d-lg-none myModal">Get A Quote<i class="fas fa-arrow-right ms-2"></i></a>
-                            <button type="button" class="d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
+                            <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button>
                         </div>
                     </div>
                     <div class="col-auto d-none d-lg-block">
