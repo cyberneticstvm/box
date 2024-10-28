@@ -115,7 +115,6 @@
             <div class="col text-center border mt-5 mb-5">
                 <h2 class="text-theme">301 Redirect</h2>
                 <p class="fw-bold">The page you are looking is removed or moved to another location permanently!</p>
-                <img src="{{ asset('/web/assets/img/icon/checked.png') }}" class="mb-3" height="50" width="50" />
             </div>
             <div class="mb-5">
             </div>
