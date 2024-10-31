@@ -31,6 +31,8 @@
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="canonical" href="{{ $canonical_url ?? '' }}" />
+
     <!-- Favicons - Place favicon.ico in the root directory -->
 
     <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('/web/assets/img/favicon.png') }}">
