@@ -30,6 +30,10 @@
                             {{ html()->text($name='keywords', $value=old('keywords'))->class('form-control')->placeholder('Meta Keywords')->required()}}
                         </div>
                         <div class="col-12">
+                            <label>Canonical Url</label>
+                            {{ html()->text($name='canonical_url', $value=old('canonical_url'))->class('form-control')->placeholder('Canonical Url') }}
+                        </div>
+                        <div class="col-12">
                             <label>Hashtags</label>
                             {{ html()->text($name='hashtags', $value=old('hashtags'))->class('form-control')->placeholder('Hashtags') }}
                         </div>

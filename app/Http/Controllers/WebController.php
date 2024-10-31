@@ -119,7 +119,7 @@ class WebController extends Controller
         $blog = Blog::where('slug', $slug)->first();
         $title = $blog->title;
         $desc = $blog->description;
-        $canonical_url = "";
+        $canonical_url = $blog->canonical_url;
         return view('web.blog-details', compact('blog', 'title', 'desc', 'canonical_url'));
     }
 

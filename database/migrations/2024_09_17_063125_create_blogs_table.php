@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('description')->nullable();
             $table->string('keywords')->nullable();
             $table->string('hashtags')->nullable();
+            $table->string('canonical_url')->nullable();
             $table->string('featured_image')->nullable();
             $table->longText('content')->nullable();
             $table->enum('blog_category', ['Packing and Moving', 'Box Storage', 'Office Storage', 'Household Storage', 'General'])->nullable();
